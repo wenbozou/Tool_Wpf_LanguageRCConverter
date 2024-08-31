@@ -1,2 +1,2 @@
-# Tool_Wpf_LanguageRCConverter
-文案格式转换工具
+# LanguageRCConverter
+a project for custum tools 

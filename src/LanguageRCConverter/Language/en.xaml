@@ -1,0 +1,1826 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    >
+
+    <sys:String x:Key="language">en-US</sys:String>
+
+    <!--#region language configure tips-->
+    <sys:String x:Key="language_name">English</sys:String>
+    <sys:String x:Key="language_name_english">English</sys:String>
+    <sys:String x:Key="language_name_portuguese">Português</sys:String>
+    <sys:String x:Key="language_name_german">Deutsch</sys:String>
+    <sys:String x:Key="language_name_spanish">Español</sys:String>
+    <sys:String x:Key="language_name_french">Français</sys:String>
+    <sys:String x:Key="language_name_japanese">日本語</sys:String>
+    <sys:String x:Key="language_name_russian">Руский</sys:String>
+    <!--#endregion-->
+
+    <!--#region main menu content tips-->
+    <sys:String x:Key="menu_register">Register</sys:String>
+    <sys:String x:Key="menu_support">Support</sys:String>
+    <sys:String x:Key="menu_guide">Guide</sys:String>
+    <sys:String x:Key="menu_feedback">Feedback</sys:String>
+    <sys:String x:Key="menu_about">About</sys:String>
+    <sys:String x:Key="menu_update">Check for Updates</sys:String>
+    <sys:String x:Key="menu_language">Language</sys:String>
+    <sys:String x:Key="menu_setting">Setting</sys:String>
+    <sys:String x:Key="menu_unregister">Unregister</sys:String>
+    <sys:String x:Key="menu_OpenLogFile">Open the log folder</sys:String>
+    <!--#endregion-->
+
+    <!--#region message box button tips-->
+    <sys:String x:Key="btn_ok">OK</sys:String>
+    <sys:String x:Key="btn_cancel">Cancel</sys:String>
+    <sys:String x:Key="btn_yes">Yes</sys:String>
+    <sys:String x:Key="btn_no">No</sys:String>
+    <sys:String x:Key="btn_close">Close</sys:String>
+    <sys:String x:Key="btn_stop">Stop</sys:String>
+    <sys:String x:Key="btn_send">Send</sys:String>
+    <!--#endregion-->
+
+    <!--#region module tips-->
+    <sys:String x:Key="module_tips_home">Home</sys:String>
+    <sys:String x:Key="module_tips_manage">Manage</sys:String>
+    <sys:String x:Key="module_tips_backup_and_restore">Backup &amp; Restore</sys:String>
+    <sys:String x:Key="module_tips_whatsApp_transfer">Social App Transfer</sys:String>
+    <sys:String x:Key="module_tips_more_tools">More Tools</sys:String>
+    <!--#endregion-->
+
+    <!--#region global tips-->
+    <sys:String x:Key="exit_recovery_tip">Exit Recovery Mode</sys:String>
+    <sys:String x:Key="try_again_tip">Try Again</sys:String>
+    <sys:String x:Key="ok_tip">OK</sys:String>
+    <sys:String x:Key="cancel_tip">Cancel</sys:String>
+    <sys:String x:Key="transfer_tip">Transfer</sys:String>
+    <sys:String x:Key="open_folder_tip">Open Folder</sys:String>
+    <sys:String x:Key="done_tip">Done</sys:String>
+    <sys:String x:Key="search_tip">Search</sys:String>
+    <sys:String x:Key="connected_tip">connected</sys:String>
+    <sys:String x:Key="add_tip">Add</sys:String>
+    <sys:String x:Key="add_to_tip">Add to</sys:String>
+    <sys:String x:Key="back_tip">Back</sys:String>
+    <sys:String x:Key="delete_tip">Delete</sys:String>
+    <sys:String x:Key="refresh_tip">Refresh</sys:String>
+    <sys:String x:Key="add_folder_tip">Add Folder</sys:String>
+    <sys:String x:Key="add_bookmark_tip">Add Bookmark</sys:String>
+    <sys:String x:Key="import_tip">Import</sys:String>
+    <sys:String x:Key="export_tip">Export</sys:String>
+    <sys:String x:Key="install_tip">Install</sys:String>
+    <sys:String x:Key="uninstall_tip">Uninstall</sys:String>
+    <sys:String x:Key="save_tip">Save</sys:String>
+    <sys:String x:Key="rename_tip">Rename</sys:String>
+    <sys:String x:Key="edit_tip">Edit</sys:String>
+    <sys:String x:Key="folder_tip">Folder</sys:String>
+    <sys:String x:Key="move_to_tip">Move to Folder</sys:String>
+    <sys:String x:Key="visit_website_tip">Visit Website</sys:String>
+    <sys:String x:Key="select_file_tip">Select File</sys:String>
+    <sys:String x:Key="select_folder_tip">Select Folder</sys:String>
+    <sys:String x:Key="merge_tip">Merge</sys:String>
+    <sys:String x:Key="retry_tip">Retry</sys:String>
+    <sys:String x:Key="view_tip">View</sys:String>
+    <sys:String x:Key="apply_to_all_tip">Apply to All</sys:String>
+    <sys:String x:Key="replace_tip">Replace</sys:String>
+    <sys:String x:Key="keep_both_tip">Keep Both</sys:String>
+    <sys:String x:Key="skip_tip">Skip</sys:String>
+    <sys:String x:Key="select_all_tip">Select All</sys:String>
+
+    <!--#endregion-->
+
+    <!--#region main view tips-->
+    <sys:String x:Key="no_device_connect_tip">No Device Connected</sys:String>
+    <sys:String x:Key="device_not_connect_tip">Please connect your device to start.</sys:String>
+    <sys:String x:Key="device_not_connect2_tip">No Device Connected</sys:String>
+    <sys:String x:Key="device_connecting_tip">Connecting your device ...</sys:String>
+    <sys:String x:Key="device_connect_but_unrecognized_tip">Device connected but not recognized?</sys:String>
+    <sys:String x:Key="device_in_recovery_tip">Your device [color=#FF0AB3CB][binding=TargetModel]Type[/binding][/color] is in Recovery Mode, please "Exit Recovery Mode" first</sys:String>
+    <sys:String x:Key="device_exiting_recovery_tip">Exiting recovery mode, please wait ...</sys:String>
+    <sys:String x:Key="device_exiting_recovery_tip1">Your device will restart during the process of exiting Recovery Mode. Once it completes, this program will reconnect automatically.</sys:String>
+    <sys:String x:Key="device_exit_recovery_failed_header_tip">Exiting Recovery Mode failed.</sys:String>
+    <sys:String x:Key="device_exit_recovery_failed_tip">To get out of Recovery Mode, please try iOS System Repair</sys:String>
+    <sys:String x:Key="device_exit_recovery_success_header_tip">Exit Recovery Mode successfully.</sys:String>
+    <sys:String x:Key="device_in_DFU_tip">Your device [color=#FF00ADC4][binding=NameWithType]Type[/binding][/color] is in DFU Mode, please follow below steps to exit it</sys:String>
+    <sys:String x:Key="device_exit_DFU_failed_tip">If you cannot manually exit DFU Mode, please try iOS System Repair</sys:String>
+    <sys:String x:Key="ios_system_repair_tip">iOS System Repair</sys:String>
+    <sys:String x:Key="device_locked_tip">Please enter the passcode to unlock your device.</sys:String>
+    <sys:String x:Key="device_locked_forget_password_tip">If you forgot the passcode, please try Screen Unlock Tool >></sys:String>
+    <sys:String x:Key="device_locked_forget_password_hyperlink_tip">Screen Unlock Tool >></sys:String>
+    <sys:String x:Key="device_not_trust_header_tip">Please unlock your device and trust this computer</sys:String>
+    <sys:String x:Key="device_not_trust_tip">If you don't see Trust this Computer alert, please reconnect your device.</sys:String>
+    <sys:String x:Key="download_iTunes_tip">Downloading driver… [color=#FF0AB3CB][binding=iTunesProcessProgress]value[/binding][/color]</sys:String>
+    <sys:String x:Key="iTunes_tip">To transfer, backup and repair iOS device, you have to install the latest driver.</sys:String>
+    <sys:String x:Key="installing_iTunes_tip">Installing driver…</sys:String>
+    <sys:String x:Key="install_iTunes_network_tip">Please wait patiently and make sure the Internet connection is stable.</sys:String>
+    <sys:String x:Key="install_iTunes_successful_tip">The driver has been installed successfully!</sys:String>
+    <sys:String x:Key="install_iTunes_failed_tip">The driver installation has failed.</sys:String>
+    <sys:String x:Key="install_iTunes_network_unavailable_tip">Network error! Please check your Internet connection and try again.</sys:String>
+    <sys:String x:Key="iTunes_need_uninstall">Exception occurred when installing the driver, please manually uninstall iTunes and try again.</sys:String>
+    <sys:String x:Key="iTunes_manual_install">The driver installation encountered an unexpected error. Please manually download and install the latest iTunes to continue.</sys:String>
+    <sys:String x:Key="iTunes_unsupported_version">Using iPhone XS/XS Max/XR requires the latest version of iTunes. Please restart {0} to download the latest drive.</sys:String>
+    <sys:String x:Key="iTunes_manual_install_2">Driver installation failed, please go to Apple's official website to manually download and install iTunes and restart the program.</sys:String>
+    <sys:String x:Key="iTunes_manual_install_2_linker">Apple's official website</sys:String>
+
+    <sys:String x:Key="DFU_i6_tip1">1. Press the Home button and Power button at the same time for 10 seconds.</sys:String>
+    <sys:String x:Key="DFU_i6_tip2">2. Release the Home button and Power button together when you see the Apple Logo screen.</sys:String>
+    <sys:String x:Key="DFU_i6_tip3">3. Your device will boot normally and exit DFU Mode.</sys:String>
+    <sys:String x:Key="DFU_i7_tip1">1. Press the Volume Down button and Power button at the same time for 10 seconds.</sys:String>
+    <sys:String x:Key="DFU_i7_tip2">2. Release the Volume Down button and Power button together when you see the Apple Logo screen.</sys:String>
+    <sys:String x:Key="DFU_i7_tip3">3. Your device will boot normally and exit DFU Mode.</sys:String>
+    <sys:String x:Key="DFU_i8_tip1">1. Quickly press and release the Volume Up button and then the Volume Down button.</sys:String>
+    <sys:String x:Key="DFU_i8_tip2">2. Long hold the Power button and release till you see the Apple Logo screen.</sys:String>
+    <sys:String x:Key="DFU_i8_tip3">3. Your device will boot normally and exit DFU Mode.</sys:String>
+
+    <sys:String x:Key="main_view_tip_update_microsoft_iTunes">Please update your iTunes to the latest version from Microsoft Store for further using the features. Restart the software to continue after installation.</sys:String>
+    <sys:String x:Key="main_view_tip_restart_description">Sorry, the program cannot start some of Apple's connection components, which can cause the software fail to recognize the device.</sys:String>
+    <sys:String x:Key="main_view_tip_restart_suggestion">We suggest you to restart your computer and try again.</sys:String>
+    <sys:String x:Key="main_view_tip_restart_description_suggestion">Failed to recognize the device! Please replug the device and try again. If the device still cannot be recognized, it is recommended to restart the computer and try again.</sys:String>
+
+    <sys:String x:Key="main_view_msg_quit_text">The program is running. Are you sure you want to quit?</sys:String>
+    <!--#endregion-->
+
+    <!--#region more tools view tips-->
+    <sys:String x:Key="more_tools_view_tip_repair_header">Repair &amp; Optimize Tools</sys:String>
+    <sys:String x:Key="more_tools_view_tip_recommendation_header">More Online Tools Recommendation</sys:String>
+
+    <sys:String x:Key="more_tools_view_tip_reiboot">iOS System Repair</sys:String>
+    <sys:String x:Key="more_tools_view_tip_icarefone">WhatsApp Transfer, Backup &amp; Restore</sys:String>
+    <sys:String x:Key="more_tools_view_tip_ultdata">iPhone Data Recovery</sys:String>
+    <sys:String x:Key="more_tools_view_tip_ultdata_win">Windows Data Recovery</sys:String>
+
+    <sys:String x:Key="more_tools_view_tip_ianygo">iOS Location Changer</sys:String>
+    <sys:String x:Key="more_tools_view_tip_4ukey">iOS Password Manager</sys:String>
+
+    <sys:String x:Key="more_tools_view_msg_no_connect_text">Please connect your iPhone, iPad or iPod to computer via USB cable.</sys:String>
+    <sys:String x:Key="more_tools_view_msg_no_connect_btn">OK</sys:String>
+    <!--#endregion-->
+
+    <!--#region about view tips-->
+    <sys:String x:Key="about_view_tip_version">Version :</sys:String>
+    <sys:String x:Key="about_view_tip_date">Date :</sys:String>
+    <sys:String x:Key="about_view_tip_website">Website :</sys:String>
+    <sys:String x:Key="about_view_tip_description">Since being built in 2007, {0} has been focusing on the core technology study of iOS, Android, Windows and Mac system. We are committed to providing users with practical software for device content management, data recovery, password recovery, system repair and others on mobile phone and computer. Currently, {1}'s products and services have gained the trust from more than 10 million users worldwide over the years.</sys:String>
+    <!--#endregion-->
+
+    <!--#region feedback view tips-->
+    <sys:String x:Key="feedback_view_tip_submit">Submit</sys:String>
+    <sys:String x:Key="feedback_view_tip_resubmit">Resubmit</sys:String>
+    <sys:String x:Key="feedback_view_tip_header">Your valuable opinions and suggestions will be more than welcome.</sys:String>
+    <sys:String x:Key="feedback_view_tip_email">Email:</sys:String>
+    <sys:String x:Key="feedback_view_tip_email_watermark">Enter your email address here</sys:String>
+    <sys:String x:Key="feedback_view_tip_content">Content:</sys:String>
+    <sys:String x:Key="feedback_view_tip_content_watermark_head">Tips:</sys:String>
+    <sys:String x:Key="feedback_view_tip_content_watermark_first">1. If you have any comments or suggestions about the program, feel free to contact us directly.</sys:String>
+    <sys:String x:Key="feedback_view_tip_content_watermark_second">2. If you encountered an error for the first time, please restart the program and try again.</sys:String>
+    <sys:String x:Key="feedback_view_tip_content_watermark_third">3. If you encountered the error several times, please describe your case in details here to help us provide technical support in the troubleshooting process.</sys:String>
+    <sys:String x:Key="feedback_view_tip_attach_log">Attach the log files</sys:String>
+    <sys:String x:Key="feedback_view_tip_sending">Sending message...</sys:String>
+    <sys:String x:Key="feedback_view_tip_succeed">Your feedback has been submitted successfully. We will respond to you as soon as possible. Thanks a lot for your feedback and patience in waiting.</sys:String>
+    <sys:String x:Key="feedback_view_tip_failed">Your feedback failed to submit. Please check your Internet connection and try again. Thanks a lot for your feedback.</sys:String>
+    <!--#endregion-->
+
+    <!--#region trial view tips-->
+    <sys:String x:Key="trial_view_tip_header">You are using the trial version!</sys:String>
+    <sys:String x:Key="trial_view_tip_description">Please buy a license to use full functions, or enter your registration code if you already have one.</sys:String>
+    <sys:String x:Key="trial_view_tip_register">Register</sys:String>
+    <sys:String x:Key="trial_view_tip_free_trial">Free Trial</sys:String>
+    <sys:String x:Key="trial_view_tip_buy_now">Buy Now</sys:String>
+    <sys:String x:Key="trial_view_tip_main_feature">Main Feature</sys:String>
+    <sys:String x:Key="trial_view_tip_trial">Trial</sys:String>
+    <sys:String x:Key="trial_view_tip_registered">Registered</sys:String>
+    <sys:String x:Key="trial_view_tip_manage">Manage</sys:String>
+    <sys:String x:Key="trial_view_tip_backup_and_restore">Backup &amp; Restore</sys:String>
+    <sys:String x:Key="trial_view_tip_whatsapp_transfer">WhatsApp Transfer</sys:String>
+    <sys:String x:Key="trial_view_tip_ios_system_repair">iOS System Repair</sys:String>
+    <sys:String x:Key="trial_view_tip_transfer_to_pc">One Click Export Photos</sys:String>
+    <sys:String x:Key="trial_view_tip_transfer_to_device">Transfer iTunes Media to Device</sys:String>
+    <sys:String x:Key="trial_view_tip_transfer_to_iTunes">Transfer Device Media to iTunes</sys:String>
+    <sys:String x:Key="trial_view_tip_limited_manage">Only 10 files</sys:String>
+    <sys:String x:Key="trial_view_tip_limited_backup">Only backup and view</sys:String>
+    <!--#endregion-->
+
+    <!--#region register view tips-->
+    <sys:String x:Key="register_view_tip_buy_now">Buy now</sys:String>
+    <sys:String x:Key="register_view_tip_later">Later</sys:String>
+    <sys:String x:Key="register_view_tip_register">Register</sys:String>
+    <sys:String x:Key="register_view_tip_unregister">Unregister</sys:String>
+    <sys:String x:Key="register_view_tip_header">Your {0} is not registered yet. Please buy a license or enter your registration code if you already have one.</sys:String>
+    <sys:String x:Key="register_view_tip_linker_description">Note: If you have any problems with this program or registration code, please visit:</sys:String>
+    <sys:String x:Key="register_view_tip_linker">Support Center.</sys:String>
+    <sys:String x:Key="register_view_tip_contact_us">Contact us</sys:String>
+    <sys:String x:Key="register_view_tip_email_watermark">Your email</sys:String>
+    <sys:String x:Key="register_view_tip_code_watermark">Registration Code</sys:String>
+    <sys:String x:Key="register_view_tip_registering">Registering...</sys:String>
+    <sys:String x:Key="register_view_tip_code_invalid">Please make sure both email and registration code are valid and try again.</sys:String>
+    <sys:String x:Key="register_view_tip_code_expired">The registration code has expired.</sys:String>
+    <sys:String x:Key="register_view_tip_pc_limited">Your installation of {0} has exceeded the limit of allowed PC.</sys:String>
+    <sys:String x:Key="register_view_tip_black_list">The Registration Code is invalid.</sys:String>
+    <sys:String x:Key="register_view_tip_no_record">The Registration Code has no order record.</sys:String>
+    <sys:String x:Key="register_view_tip_purchase_continue">If you want to continue using {0}, please purchase again or contact us.</sys:String>
+    <sys:String x:Key="register_view_tip_register_succeed">Registered successfully.</sys:String>
+    <sys:String x:Key="register_view_tip_register_no_network">Please make sure your network connection is working and register again.</sys:String>
+    <!--#endregion-->
+
+    <!--#region unrecognized view tips-->
+    <sys:String x:Key="unrecognized_view_tip_linker">Device is connected but unrecognized</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_header">No device detected. Please try again in the following ways:</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_first">1. Please enter the passcode to unlock your device.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_second">2. Reconnect your device or switch the USB port.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_third">3. Replace with another USB cable.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_forth">4. Try iOS System Repair.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_got_it">OK</sys:String>
+
+    <sys:String x:Key="unrecognized_view_tip_ios_device">iOS Device</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_android_device">Android Device</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_first_android">1. Re-plug your device.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_second_android">2. Try other USB ports or change a USB cable.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_third_android">3. Make sure you turned on MTP mode.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_forth_android">4. Download and re-install Android driver. Click to download the driver.</sys:String>
+    <sys:String x:Key="unrecognized_view_tip_guider_forth_android_linker">Click to download the driver</sys:String>
+    <!--#endregion-->
+
+
+    <!--#region home view tips-->
+    <sys:String x:Key="home_view_tip_device_target">[color=#FF0AB3CB][binding=DeviceName]DeviceName[/binding][/color] Has Connected Successfully!</sys:String>
+    <sys:String x:Key="home_view_tip_device_target2">[color=#FF0AB3CB][binding=DeviceName]DeviceName[/binding][/color]</sys:String>
+    <sys:String x:Key="home_view_tip_transfer_to_iTunes">Transfer Device Media to iTunes</sys:String>
+    <sys:String x:Key="home_view_tip_transfer_to_device">Transfer iTunes Media to Device</sys:String>
+    <sys:String x:Key="home_view_tip_transfer_to_pc">One-click to Export Photos to PC</sys:String>
+    <sys:String x:Key="home_view_tip_close_iTunes">To avoid data overwriting, please close iTunes while running {0}.</sys:String>
+    <sys:String x:Key="home_view_tip_notify_user_close_iTunes">Please close the iTunes first.</sys:String>
+    <sys:String x:Key="home_view_tip_quick_start">Quick Start</sys:String>
+    <sys:String x:Key="home_view_tip_manage_device">Manage Your iOS Device</sys:String>
+    <sys:String x:Key="home_view_tip_photos">Photos</sys:String>
+    <sys:String x:Key="home_view_tip_music">Music</sys:String>
+    <sys:String x:Key="home_view_tip_messages">Messages</sys:String>
+    <sys:String x:Key="home_view_tip_apps">Apps</sys:String>
+    <sys:String x:Key="home_view_tip_apps2">Apps</sys:String>
+    <sys:String x:Key="home_view_tip_books">More</sys:String>
+    <!--#endregion-->
+
+    <!--#region transfer to iTunes view tips-->
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_header">Please select file type(s) you want to add to iTunes</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_warning">Loading data on your device, please wait patiently.</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_selected">Selected:</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_items">Items,</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_no_files">No Files</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_music">Music</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_podcasts">Podcasts</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_ringtones">Ringtones</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_audiobooks">Audiobooks</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_tv_shows">TV Shows</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_transfer_header">Transferring to iTunes, please wait...</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_transfer_warning">Please do not disconnect the device.</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_transfer_description">Transferring [binding=FileNameTransferring]FileNameTransferring[/binding]...</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_after_header">Transfer completed!</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_after_succeed_complex">Transfer successfully: [binding=TransferSucceedCount]TransferSucceedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_after_succeed_singular">1 file transferred successfully.</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_after_failed_complex">Transfer failed: [color=#FFFF4D4D][binding=TransferFailedCount]TransferFailedCount[/binding][/color] file(s)!</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_after_failed_singular">1 file failed to transfer.</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_after_succeed_all">All files transferred successfully.</sys:String>
+
+    <sys:String x:Key="transfer_to_iTunes_view_tip_title">Transfer Device Media to iTunes</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_disconnected">The device [color=#FF0AB3CB]"{0}"[/color] has been disconnected. Please reconnect your device and try again.</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_quit_text">The program is running. Are you sure you want to stop?</sys:String>
+    <!--#endregion-->
+
+    <!--#region transfer to device view tips-->
+    <sys:String x:Key="transfer_to_device_view_tip_no_files">No Files</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_before_videos">Videos</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_before_header">Please select file type(s) you want to add to the device</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_before_warning">Loading data on your device, please wait patiently.</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_before_iTunes_media">iTunes Media</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_before_remove_duplicated">Automatically remove duplicate files.</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_transfer_header">Transferring to device, please wait...</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_transfer_warning">Please do not disconnect your device.</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_succeed">[binding=TransferSucceedCount]TransferSucceedCount[/binding] files successfully transferred!</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_failed">[binding=TransferSucceedCount]TransferSucceedCount[/binding] files transfer success!, [color=#FFFF4D4D][binding=TransferFailedCount]TransferFailedCount[/binding][color=#FF4D4D] files transfer failed!</sys:String>
+
+    <sys:String x:Key="transfer_to_device_view_tip_title">Transfer iTunes Media to Device</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_device_media">Device Media</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_no_connect">Please connect your iPhone, iPad or iPod to computer via USB cabel.</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_disconnected">The device {0} has been disconnected.</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_quit_text">The program is running. Are you sure you want to stop?</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_insufficient_space">Insufficient space on the device! Please free up some space.</sys:String>
+    <!--#endregion-->
+
+    <!--#region transfer to pc view tips-->
+    <sys:String x:Key="transfer_to_pc_view_tip_exporting">Exporting</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_singular">photo</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_complex">photos</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_succeed_singular">1 photo successfully exported.</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_succeed_complex">{0} photos successfully exported.</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_failed_singular">1 photo failed to export.</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_failed_complex">{0} photos failed to export.</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_progress">Progress:</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_calculating">Calculating</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_no_photos">No photos on the device.</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_quit_text">Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_insufficient_space">Insufficient disk space! Please change the storage path.</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager view tips-->
+    <sys:String x:Key="manager_view_tip_photos">Photos</sys:String>
+    <sys:String x:Key="manager_view_tip_camera_roll">Camera Roll</sys:String>
+    <sys:String x:Key="manager_view_tip_albums">Albums</sys:String>
+    <sys:String x:Key="manager_view_tip_music">Music</sys:String>
+    <sys:String x:Key="manager_view_tip_ringtones">Ringtones</sys:String>
+    <sys:String x:Key="manager_view_tip_videos">Videos</sys:String>
+    <sys:String x:Key="manager_view_tip_contacts">Contacts</sys:String>
+    <sys:String x:Key="manager_view_tip_messages">Messages</sys:String>
+    <sys:String x:Key="manager_view_tip_apps">Apps</sys:String>
+    <sys:String x:Key="manager_view_tip_books">Books</sys:String>
+    <sys:String x:Key="manager_view_tip_bookmarks">Bookmarks</sys:String>
+
+    <sys:String x:Key="manager_view_tip_file_loading">Loading [binding=Name]Name[/binding], please wait...</sys:String>
+    <sys:String x:Key="manager_view_tip_import_cancelling">Cancelling import, please wait ...</sys:String>
+
+    <sys:String x:Key="manager_view_tip_device_insufficient_header">Insufficient space on the device! Please free up some space.</sys:String>
+    <sys:String x:Key="manager_view_tip_no_match_search_item">No matching search item was found. Please search again.</sys:String>
+
+    <sys:String x:Key="manager_view_tip_single_unweighable">{0} item</sys:String>
+    <sys:String x:Key="manager_view_tip_multi_unweighable">{0} items</sys:String>
+    <sys:String x:Key="manager_view_tip_single_unweighable_selected">{0} item selected</sys:String>
+    <sys:String x:Key="manager_view_tip_multi_unweighable_selected">{0} items selected</sys:String>
+    <sys:String x:Key="manager_view_tip_single_weighable">{0} item, {1}</sys:String>
+    <sys:String x:Key="manager_view_tip_multi_weighable">{0} items, {1}</sys:String>
+    <sys:String x:Key="manager_view_tip_single_weighable_selected">{0} item selected {1}</sys:String>
+    <sys:String x:Key="manager_view_tip_multi_weighable_selected">{0} items selected {1}</sys:String>
+
+    <sys:String x:Key="manager_view_msg_quit_text">Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="manager_view_msg_quit_btn_yes">Yes</sys:String>
+    <sys:String x:Key="manager_view_msg_quit_btn_no">No</sys:String>
+
+    <sys:String x:Key="manager_view_media_play_insufficient">There is not enough space on the disk to play the video!</sys:String>
+    <sys:String x:Key="manager_view_music_play_insufficient">There is not enough space on the disk to play the music!</sys:String>
+
+    <sys:String x:Key="manager_view_cloud_media_inoperable_tip">Cloud files can't be removed from the playlist.</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager photos view tips-->
+    <sys:String x:Key="manager_photos_view_tip_loading_data">Loading data, please wait ...</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_no_photos">No Photos</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_config">Export Settings</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_album_delete">Please operate on your device if you want to delete an album. (Photos > Albums > Edit > Delete.)</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_photo_file">Image files</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_insufficient_device_space">Insufficient space on the device! Please free up some space.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_insufficient_computer_space">Insufficient disk space! Please change the storage path.</sys:String>
+
+    <sys:String x:Key="manager_photos_view_tip_import_title">Import Photos</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_import_header">Waiting for import ...</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_import_description">Importing photo(s) ({0} / {1}) {2} ...</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_import_single_succeed">1 photo successfully imported.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_import_multi_succeed">{0} photos successfully imported.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_import_single_failed">1 photo failed to import.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_import_multi_failed">{0} photos failed to import.</sys:String>
+
+    <sys:String x:Key="manager_photos_view_tip_export_title">Export Photos</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_header">Waiting for export ...</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_description">Exporting photo(s) ({0} / {1}) {2} ...</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_single_succeed">1 photo successfully exported.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_multi_succeed">{0} photos successfully exported.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_single_failed">1 photo failed to export.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_multi_failed">{0} photos failed to export.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_failed_link">How to export orginals?</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_export_iCloud">{0} has detected "iCloud Photo Library" is enabled and selected as "Optimize iPhone Storage". These iCloud photos can only be exported as thumbnails? Are you sure you want to export?</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_convert_description">Converting photos ({0} / {1}) {2} ...</sys:String>
+
+    <sys:String x:Key="manager_photos_view_tip_delete_title">Delete Photos</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_header">Deleting photos, please wait ...</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_multiple_succeed">{0} photos successfully deleted.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_single_succeed">1 photo successfully deleted.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_multiple_failed">{0} photos failed to delete.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_single_failed">1 photo failed to delete.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_confirm_multiple">Are you sure you want to delete the selected {0} photos?</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_confirm_single">Are you sure you want to delete the selected 1 photo?</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_delete_failed_link">Why failed to delete photo(s)?</sys:String>
+
+    <sys:String x:Key="manager_photos_view_tip_app_install_header">Install iCareFone App</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_install_description">If you want to import photos to Camera Roll and be able to delete these photos directly on your device, you will need to install iCareFone app on the device by clicking "Install" button below.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_install_description_key">you will need to install iCareFone app on the device by clicking "Install" button below.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_install_installing">Installing iCareFone app on your device, please wait ...</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_install_failed">Install Failed! Please reconnect your device.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_install_btn">Install</sys:String>
+
+    <sys:String x:Key="manager_photos_view_tip_app_open_header">Open iCareFone App</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_open_description">Please open iCareFone App on your device and allow access to your photos.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_open_mark_head">Tips:</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_open_mark_body">Please keep iCareFone app running when importing photos to Camera Roll. Or it may cut off the photos import.</sys:String>
+
+    <sys:String x:Key="manager_photos_view_tip_app_import_header">Please open iCareFone app on your device till the photos import is completed.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_import_mark">Tips: Photos import may fail if you close the iCareFone App.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_import_description">You can click "Fast Import" to quickly transfer the photos. Note that photos imported this way cannot be deleted directly on your device due to the limitations of Apple.</sys:String>
+    <sys:String x:Key="manager_photos_view_tip_app_import_fast_import">"Fast Import"</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager albums view tips-->
+    <sys:String x:Key="manager_albums_view_tip_loading_data">Loading data, please wait ...</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_camera_roll">Camera Roll</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_bursts">Bursts</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_recently_deleted">Recently Deleted</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_videos">Videos</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_selfies">Selfies</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_panoramas">Panoramas</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_screenshots">Screenshots</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_live_photo">Live Photos</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_slo_mo">Slo-mo</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_people">People</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_places">Places</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_portrait">Portrait</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_time_lapse">Time Lapse</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_favorites">Favorites</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_animated">Animated</sys:String>
+    <sys:String x:Key="manager_albums_view_tip_my_albums">My Albums</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager music view tips-->
+    <sys:String x:Key="manager_music_view_tip_export_to_pc">Export to Computer</sys:String>
+    <sys:String x:Key="manager_music_view_export_to_itunes_tip">Export to iTunes</sys:String>
+    <sys:String x:Key="manager_music_view_importing_tip">Waiting for import...</sys:String>
+    <sys:String x:Key="manager_music_view_import_filter">Music files(*.mp3; *.m4a;*.aac;*.wav)|*.mp3;*.m4a;*.aac;*.wav</sys:String>
+    <sys:String x:Key="manager_music_view_importing_count_tip">Importing musics ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_importing_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_import_success_tip">Import successfully: [binding=SucceedCount]SucceedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_music_view_import_failed_tip">Import failed: [binding=FailedCount]FailedCount[/binding] file(s).</sys:String>
+
+    <sys:String x:Key="manager_music_view_exporting_tip">Waiting for export...</sys:String>
+    <sys:String x:Key="manager_music_view_exporting_count_tip">Exporting music ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_exporting_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_export_success_tip">Export successfully: [binding=SucceedCount]SucceedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_music_view_export_failed_tip">Export failed: [binding=FailedCount]FailedCount[/binding] file(s).</sys:String>
+
+    <sys:String x:Key="manager_music_view_delete_single_tip">Are you sure you want to delete the selected music &quot;[binding=Name]Name[/binding]&quot;?</sys:String>
+    <sys:String x:Key="manager_music_view_delete_tip">Delete the music file completely</sys:String>
+    <sys:String x:Key="manager_music_view_delete_failed_tip">[binding=FailedCount]FailedCount[/binding] pieces of music failed to delete.</sys:String>
+    <sys:String x:Key="manager_music_view_delete_multi_tip">Are you sure you want to delete the selected [binding=Total]Total[/binding] pieces of music?</sys:String>
+    <sys:String x:Key="manager_music_view_delete_multi_with_cloud_tip">Are you sure you want to delete the selected [binding=Total]Total[/binding] pieces of music?(Cloud files can't be removed from the playlist.)</sys:String>
+    <sys:String x:Key="manager_music_view_deleting_count_tip">Deleting music, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_deleting_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_delete_success_tip">[binding=SucceedCount]SucceedCount[/binding] pieces of music successfully deleted.</sys:String>
+
+    <sys:String x:Key="manager_music_view_new_playlist_tip">New Playlist</sys:String>
+    <sys:String x:Key="manager_music_view_all_music_tip">All Music</sys:String>
+    <sys:String x:Key="manager_music_view_add_new_playlist_failed_tip">Failed to create new playlist.</sys:String>
+    <sys:String x:Key="manager_music_view_add_new_playlist_exist_tip">Playlist named {0} already exists.</sys:String>
+    <sys:String x:Key="manager_music_view_add_to_playlist_tip">Adding to playlist, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_add_to_playlist_succeed_tip">Succeeded to add to playlist.</sys:String>
+    <sys:String x:Key="manager_music_view_add_to_playlist_failed_tip">Failed to add to playlist.</sys:String>
+    <sys:String x:Key="manager_music_view_menu_fromFolders_tip">Select Folder</sys:String>
+    <sys:String x:Key="manager_music_view_menu_fromFiles_tip">Select File</sys:String>
+    <sys:String x:Key="manager_music_view_menu_play_tip">Play</sys:String>
+    <sys:String x:Key="manager_music_view_menu_add_to_tip">Add to playlist</sys:String>
+    <sys:String x:Key="manager_music_view_DG_header_tip1">Name</sys:String>
+    <sys:String x:Key="manager_music_view_DG_header_tip2">Duration</sys:String>
+    <sys:String x:Key="manager_music_view_DG_header_tip3">Artist</sys:String>
+    <sys:String x:Key="manager_music_view_DG_header_tip4">Album</sys:String>
+    <sys:String x:Key="manager_music_view_DG_header_tip5">Size</sys:String>
+    <sys:String x:Key="manager_music_view_disk_Insufficient_space_tip">Insufficient disk space! Please change the storage path.</sys:String>
+    <sys:String x:Key="manager_music_view_device_Insufficient_space_tip">Insufficient space on the device! Please free up some space.</sys:String>
+
+    <sys:String x:Key="manager_music_view_loading_music_tip">Loading, [binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_playlist_rename_failed_tip">Failed to rename playlist.</sys:String>
+    <sys:String x:Key="manager_music_view_playlist_delete_notify_tip">Are you sure you want to delete the selected playlist?</sys:String>
+    <sys:String x:Key="manager_music_view_playlist_deleting_tip">Deleting playlist, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_import_duplicate_tip">Music "[binding=Name]Name[/binding]" already exists on your device. Do you want to keep both or skip?</sys:String>
+    <sys:String x:Key="manager_music_view_import_duplicate_tip2">Apply to All</sys:String>
+    <sys:String x:Key="manager_music_view_import_duplicate_tip3">Keep Both</sys:String>
+    <sys:String x:Key="manager_music_view_import_duplicate_tip4">Skip</sys:String>
+    <sys:String x:Key="manager_music_view_deleting_playlist_tip">Deleting playlist, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_deleting_musicItem_tip">Deleting music, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_new_playlsit_title">New Playlist</sys:String>
+    <sys:String x:Key="manager_music_view_rename_playlsit_title">Rename Playlist</sys:String>
+    <sys:String x:Key="manager_music_view_add_to_playlsit_title">Add to Playlist</sys:String>
+    <sys:String x:Key="manager_music_view_new_playlsit">Creating new playlist, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_add_to_playlsit">Adding to playlist, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_new_playlsit_failed">Failed to Create new playlist.</sys:String>
+    <sys:String x:Key="manager_music_view_rename_playlsit">Renaming playlist, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_playlsit_existed">Playlist named {0} already exist.</sys:String>
+    <sys:String x:Key="manager_music_view_add_to_playlsit_failed">Failed to add to playlist.</sys:String>
+    <sys:String x:Key="manager_music_view_exporting_DT_tip">Exporting music ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_deleting_DT_tip">Deleting musics ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_deleting_size_DT_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_music_view_delete_succeed_DT_tip">[binding=SucceedCount]SucceedCount[/binding] pieces of music successfully deleted.</sys:String>
+    <sys:String x:Key="manager_music_view_exporting_wait_tip">Exporting music, please wait...</sys:String>
+    <sys:String x:Key="manager_music_view_playlist_delete_failed_tip">Failed to delete</sys:String>
+    <sys:String x:Key="manager_music_view_no_data_tip">No Music</sys:String>
+    <sys:String x:Key="manager_music_view_Export_to_iTunes_duplicate_tip">Music "[binding=Name]Name[/binding]" already exists on your iTunes. Do you want to keep both or skip?</sys:String>
+    <sys:String x:Key="manager_music_view_tip_import_ignore">Ignored [binding=SkippedCount]SkippedCount[/binding] duplicate file(s)!</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager ringtones view tips-->
+    <sys:String x:Key="manager_ringtones_view_exporting_tip">Waiting for export...</sys:String>
+    <sys:String x:Key="manager_ringtones_view_import_filter">Ringtone files(*.mp3;*.m4a;*.m4r)|*.mp3;*.m4a;*.m4r</sys:String>
+    <sys:String x:Key="manager_ringtones_view_exporting_count_tip">Exporting ringtone(s) ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_ringtones_view_exporting_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_ringtones_view_export_success_tip">Export successfully: [binding=SucceedCount]SucceedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_ringtones_view_export_failed_tip">Export failed: [binding=FailedCount]FailedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_ringtones_view_delete_single_tip">Are you sure you want to delete the selected ringtone &quot;[binding=Name]Name[/binding]&quot;?</sys:String>
+    <sys:String x:Key="manager_ringtones_view_delete_multi_tip">Are you sure you want to delete the selected [binding=Total]Total[/binding] ringtones?</sys:String>
+    <sys:String x:Key="manager_ringtones_view_deleting_tip">Deleting ringtone(s), please wait...</sys:String>
+    <sys:String x:Key="manager_ringtones_view_deleting_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_ringtones_view_delete_success_tip">[binding=SucceedCount]SucceedCount[/binding] ringtones successfully deleted.</sys:String>
+    <sys:String x:Key="manager_ringtones_view_repeat_tip">Ringtone [binding=Name]Name[/binding] already exists on your device. Are you sure you want to replace it?</sys:String>
+    <sys:String x:Key="manager_ringtones_view_importing_tip">Waiting for import...</sys:String>
+    <sys:String x:Key="manager_ringtones_view_converting_count_tip">Converting ringtones ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]), [binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_ringtones_view_importing_count_tip">Importing ringtone(s) ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_ringtones_view_importing_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_ringtones_view_import_success_tip">Import successfully: [binding=SucceedCount]SucceedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_ringtones_view_import_failed_tip">Import failed: [binding=FailedCount]FailedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_ringtones_view_DG_header_tip1">Title</sys:String>
+    <sys:String x:Key="manager_ringtones_view_tip_delete_single">Are you sure you want to delete the selected ringtone "{0}"?</sys:String>
+    <sys:String x:Key="manager_ringtones_view_tip_delete_multi">Are you sure you want to delete the selected {0} ringtones?</sys:String>
+    <sys:String x:Key="manager_ringtones_view_deleting_wait_tip">Deleting ringtone(s), please wait...</sys:String>
+    <sys:String x:Key="manager_ringtones_view_no_data_tip">No Ringtones</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager vedios view tips-->
+    <sys:String x:Key="manager_videos_view_importing_tip">Waiting for import...</sys:String>
+    <sys:String x:Key="manager_videos_view_import_filter">Video files(*.mov;*.mp4)|*.mov;*.mp4</sys:String>
+    <sys:String x:Key="manager_videos_view_importing_count_tip">Importing video(s) ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_videos_view_importing_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_videos_view_import_success_tip">Import successfully: [binding=SucceedCount]SucceedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_videos_view_import_failed_tip">Import failed: [binding=FailedCount]FailedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_videos_view_exporting_tip">Waiting for export...</sys:String>
+    <sys:String x:Key="manager_videos_view_exporting_count_tip">Exporting video(s) ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_videos_view_exporting_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_videos_view_export_success_tip">Export successfully: [binding=SucceedCount]SucceedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_videos_view_export_failed_tip">Export failed: [binding=FailedCount]FailedCount[/binding] file(s).</sys:String>
+    <sys:String x:Key="manager_videos_view_delete_single_tip">Are you sure you want to delete the selected video &quot;[binding=Name]Name[/binding]&quot;?(Cloud files can't be removed from the playlist.)</sys:String>
+    <sys:String x:Key="manager_videos_view_delete_multi_tip">Are you sure you want to delete the selected [binding=Total]Total[/binding] videos?(Cloud files can't be removed from the playlist.)</sys:String>
+    <sys:String x:Key="manager_videos_view_deleting_tip">Deleting video(s), please wait...</sys:String>
+    <sys:String x:Key="manager_videos_view_delete_success_tip">[binding=SucceedCount]SucceedCount[/binding] videos successfully deleted.</sys:String>
+    <sys:String x:Key="manager_videos_view_DG_header_tip1">Title</sys:String>
+    <sys:String x:Key="manager_videos_view_DG_header_tip2">Duration</sys:String>
+    <sys:String x:Key="manager_videos_view_DG_header_tip3">Type</sys:String>
+    <sys:String x:Key="manager_videos_view_DG_header_tip4">Size</sys:String>
+    <sys:String x:Key="manager_videos_view_device_Insufficient_space_tip">Insufficient space on the device! Please free up some space.</sys:String>
+    <sys:String x:Key="manager_videos_view_import_duplicate_tip">Video"[binding=Name]Name[/binding]" already exists on your device. Do you want to keep both or skip?</sys:String>
+    <sys:String x:Key="manager_videos_view_Export_to_iTunes_duplicate_tip">Video "[binding=Name]Name[/binding]" already exists on your iTunes. Do you want to keep both or skip?</sys:String>
+    <sys:String x:Key="manager_videos_delete_single_tip">Are you sure you want to delete the selected video "{0}"?</sys:String>
+    <sys:String x:Key="manager_videos_delete_multi_tip">Are you sure you want to delete the selected {0} videos?</sys:String>
+    <sys:String x:Key="manager_videos_delete_multi_with_cloud_tip">Are you sure you want to delete the selected {0} videos?(Cloud files can't be removed from the playlist.)</sys:String>
+    <sys:String x:Key="manager_videos_no_data_tip">No Videos</sys:String>
+    <sys:String x:Key="manager_videos_view_tip_import_ignore">Ignored [binding=SkippedCount]SkippedCount[/binding] duplicate file(s)!</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager contacts new or edit view tips-->
+    <sys:String x:Key="manager_contacts_info_view_tip_new_contact">New Contact</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_edit_contact">Edit Contact</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_first_name">First Name</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_last_name">Last Name</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_company">Company</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_group">Group</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_on_my_device_local">On My Device: Local</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_home">Home</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_work">Work</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_phone1">Phone 1</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_phone2">Phone 2</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_email1">Email 1</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_email2">Email 2</sys:String>
+    <sys:String x:Key="manager_contacts_info_view_tip_note">Note</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager contacts de-duplicate view tips-->
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_deduplicate_contacts">De-Duplicate Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_no_mergeable_contacts">No Mergeable Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_before_merge">Duplicated contacts before merge</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_after_merge">Preview after merge</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_phone">Phone:</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_email">Email:</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_multiple_mergeable">{0} groups of duplicated contacts.</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_single_mergeable">1 group of duplicated contacts.</sys:String>
+    <sys:String x:Key="manager_contacts_deduplicate_view_tip_loading_data">Looking for duplicated contacts ...</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager contacts view tips-->
+    <sys:String x:Key="manager_contacts_view_tip_loading_data">Loading data, please wait ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_iCloud_header">Please follow below steps to close Contacts in iCloud.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_iCloud_setting_first">1. Go to Settings. Tap iCloud.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_iCloud_setting_second">2. Toggle off Contacts option under iCloud.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_iCloud_setting_third">3. Select "Keep on my iPhone".</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_no_contacts">No Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_name">Name</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_phone_number">Phone Number</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_email">Email</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_company">Company</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_note">Note</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_new_contact">New Contact</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_de_duplicate">De-Duplicate</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_to_vcf">To vCard File</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_to_csv">To CSV File</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_no_matched">No matching search item was found. Please search again.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_create_title">New Contact</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_create_header">Creating new contact, please wait ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_create_succeed">Succeeded to create new contact.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_create_failed">Failed to create new contact.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_edit_title">Edit Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_edit_header">Saving contact, please wait ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_edit_succeed">Succeeded to save the contact.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_edit_failed">Failed to save the contact.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_deduplicate_title">De-Duplicate Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_deduplicate_header">Merging duplicated contacts, please wait ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_deduplicate_succeed">Succeeded to de-duplicate the contacts.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_deduplicate_failed">Failed to de-duplicate the contacts.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_import_title">Import Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_import_header">Importing contacts, please wait ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_import_description">Importing contact(s) ({0} / {1}) ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_import_multiple_succeed">{0} contacts successfully imported.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_import_single_succeed">1 contact successfully imported.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_import_multiple_failed">{0} contacts failed to import.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_import_single_failed">1 contact failed to import.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_export_title">Export Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_export_header">Exporting contacts, please wait ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_export_description">Exporting contact(s) ({0} / {1}) ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_export_multiple_succeed">{0} contacts successfully exported.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_export_single_succeed">1 contact successfully exported.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_export_multiple_failed">{0} contacts failed to export.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_export_single_failed">1 contact failed to export.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_title">Delete Contacts</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_header">Deleting contacts, please wait ...</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_multiple_succeed">{0} contacts successfully deleted.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_single_succeed">1 contact successfully deleted.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_multiple_failed">{0} contacts failed to delete.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_single_failed">1 contact failed to delete.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_confirm_multiple">Are you sure you want to delete the selected {0} contacts?</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_delete_confirm_single">Are you sure you want to delete the selected contact "{0}"?</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_insufficient_device_space">Insufficient space on the device! Please free up some space.</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_vcf_file">vCard File</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_csv_file">CSV File</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_contact_file">Contact Files</sys:String>
+
+    <sys:String x:Key="manager_contacts_view_tip_home">Home</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_work">Work</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_phone">Phone</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_iPhone">iPhone</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_mobile">Mobile</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_main">Main</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_home_fax">Home Fax</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_work_fax">Work Fax</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_pager">Pager</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_other">Other</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_iCloud">iCloud</sys:String>
+    <sys:String x:Key="manager_contacts_view_tip_unknow">Unknow</sys:String>
+
+    <sys:String x:Key="manager_contacts_view_msg_insufficient_computer_space_text">Insufficient disk space! Please change the storage path.</sys:String>
+    <sys:String x:Key="manager_contacts_view_msg_insufficient_computer_space_btn">OK</sys:String>
+    <sys:String x:Key="manager_contacts_view_msg_analysis_failed_text">Cannot get contact info from {0} files.</sys:String>
+    <sys:String x:Key="manager_contacts_view_msg_analysis_failed_btn">OK</sys:String>
+
+    <Image x:Key="manager_contacts_view_image_iCloud_setting_first" Stretch="None" Source="pack://application:,,,/iCareFone;component/Themes/Images/iCloud/EN_Settings_iCloud.png" />
+    <Image x:Key="manager_contacts_view_image_iCloud_setting_second" Stretch="None" Source="pack://application:,,,/iCareFone;component/Themes/Images/iCloud/EN_Tap_Contacts.png" />
+    <Image x:Key="manager_contacts_view_image_iCloud_setting_third" Stretch="None" Source="pack://application:,,,/iCareFone;component/Themes/Images/iCloud/EN_Keep_On_My_iPhone.png" />
+    <!--#endregion-->
+
+    <!--#region manager messages view tips-->
+    <sys:String x:Key="manager_messages_view_tip_loading_data">It takes a while to load messages. Please wait ...</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_no_messages">No Messages</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_content">Content</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_date">Date</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_unknow">Unknow</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_phone">Phone :</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_all_phone">All Phone</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_no_matched">No matching search item was found. Please search again.</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_export_title">Export Messages</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_export_header">Exporting messages, please wait ...</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_export_description">Exporting message(s) ({0} / {1}) ...</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_excel_file">Excel File</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_multiple_exported">{0} messages successfully exported.</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_single_exported">1 message successfully exported.</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_multiple_failed">{0} messages failed to export.</sys:String>
+    <sys:String x:Key="manager_messages_view_tip_single_failed">1 message failed to export.</sys:String>
+
+    <sys:String x:Key="manager_messages_view_msg_insufficient_space_text">Insufficient disk space! Please change the storage path.</sys:String>
+    <sys:String x:Key="manager_messages_view_msg_insufficient_space_btn">OK</sys:String>
+
+    <sys:String x:Key="message_view_tip_send_failed">Not Delivered!</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager apps view tips-->
+    <sys:String x:Key="manager_apps_view_tip_loading_data">Loading data, please wait ...</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_no_apps">No Apps</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_no_matched">No matching search item was found. Please search again.</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_uninstall">Uninstall</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_app_name">App Name</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_app_version">App Version</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_app_size">App Size</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_document_size">Document Size</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_operation">Operation</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_uploading">Uploading ...</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_installing">Installing ...</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_uninstalling">Uninstalling ...</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_waiting_for_install">Waiting for Install ...</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_waiting_for_uninstall">Waiting for Uninstall ...</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_install_failed">Installation Failed</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_uninstall_failed">Incorrect Architecture</sys:String>
+
+    <sys:String x:Key="manager_apps_view_insufficient_space_on_device">Insufficient space on the device! Please free up some space.</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_uninstall_confirm_multiple">Are you sure you want to uninstall the selected {0} apps?</sys:String>
+    <sys:String x:Key="manager_apps_view_tip_uninstall_confirm_single">Are you sure you want to uninstall the selected app "{0}"?</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager books view tips-->
+    <sys:String x:Key="manager_book_view_importing_tip">Waiting for import...</sys:String>
+    <sys:String x:Key="manager_book_view_importing_count_tip">Importing book(s) ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_book_view_importing_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_book_view_import_success_tip">[binding=SucceedCount]SucceedCount[/binding] books successfully imported.</sys:String>
+    <sys:String x:Key="manager_book_view_exporting_tip">Waiting for export...</sys:String>
+    <sys:String x:Key="manager_book_view_exporting_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_book_view_exporting_count_tip">Exporting books ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_book_view_export_success_tip">[binding=SucceedCount]SucceedCount[/binding] books successfully exported.</sys:String>
+    <sys:String x:Key="manager_book_view_delete_single_tip">Are you sure you want to delete the selected book &quot;[binding=Name]Name[/binding]&quot;?</sys:String>
+    <sys:String x:Key="manager_book_view_delete_multi_tip">Are you sure you want to delete the selected [binding=Total]Total[/binding] books?</sys:String>
+    <sys:String x:Key="manager_book_view_deleting_tip">Deleting book(s) ([binding=Index]Index[/binding]/[binding=Total]Total[/binding]),[binding=Name]Name[/binding]</sys:String>
+    <sys:String x:Key="manager_book_view_deleting_size_tip">[binding=CurrentSpace]CurrentSpace[/binding]/[binding=TotalSpace]TotalSpace[/binding]</sys:String>
+    <sys:String x:Key="manager_book_view_delete_success_tip">[binding=SucceedCount]SucceedCount[/binding] books successfully deleted.</sys:String>
+    <sys:String x:Key="manager_book_view_DG_header1_tip">Name</sys:String>
+    <sys:String x:Key="manager_book_view_DG_header2_tip">Author</sys:String>
+    <sys:String x:Key="manager_book_view_DG_header3_tip">Format</sys:String>
+    <sys:String x:Key="manager_book_view_DG_header4_tip">Size</sys:String>
+    <sys:String x:Key="manager_book_view_DG_no_data_tip">No Books</sys:String>
+    <sys:String x:Key="manager_book_view_delete_single_success_tip">1 book successfully deleted.</sys:String>
+    <sys:String x:Key="manager_book_view_import_single_success_tip">1 book successfully imported.</sys:String>
+    <sys:String x:Key="manager_book_view_export_single_success_tip">1 book successfully exported.</sys:String>
+    <sys:String x:Key="manager_book_view_delete_books_title_tip">Delete Books</sys:String>
+    <sys:String x:Key="manager_book_view_export_books_title_tip">Export Books</sys:String>
+    <sys:String x:Key="manager_book_view_import_books_title_tip">Import Books</sys:String>
+    <sys:String x:Key="manager_book_change_path_tip">Book files(*.epub,*.pdf)|*.epub;*.pdf</sys:String>
+    <!--#endregion-->
+
+    <!--#region manager bookmarks view tips-->
+    <sys:String x:Key="manager_bookmark_view_delete_single_tip">Are you sure you want to delete the selected bookmark &quot;[binding=Name]Name[/binding]&quot;?</sys:String>
+    <sys:String x:Key="manager_bookmark_view_delete_multi_tip">Are you sure you want to delete the selected [binding=Total]Total[/binding] bookmarks?</sys:String>
+    <sys:String x:Key="manager_bookmark_view_delete_various_tip">Are you sure you want to delete the selected [binding=FolderCount]FolderCount[/binding] folders and [binding=BookmarkCount]BookmarkCount[/binding] bookmarks?</sys:String>
+    <sys:String x:Key="manager_bookmark_view_deleting_tip">Deleting bookmark(s), please wait…</sys:String>
+    <sys:String x:Key="manager_bookmark_view_delete_success_tip">[binding=SucceedCount]SucceedCount[/binding] bookmarks successfully deleted.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_delete_failed_tip">[binding=FailedCount]FailedCount[/binding] bookmarks failed to delete.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_saving_bookmark_tip">Saving bookmark, please waiting...</sys:String>
+    <sys:String x:Key="manager_bookmark_view_save_success_tip">Succeeded to save bookmark.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_save_failed_tip">Failed to save bookmark.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_saving_folder_tip">Saving folder, please wait...</sys:String>
+    <sys:String x:Key="manager_bookmark_view_save_folder_success_tip">Succeeded to save folder.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_save_folder_failed_tip">Failed to save folder.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_moving_bookmark_tip">Moving bookmark(s), please wait...</sys:String>
+    <sys:String x:Key="manager_bookmark_view_moving_bookmark_success_tip">Succeeded to move bookmark(s).</sys:String>
+    <sys:String x:Key="manager_bookmark_view_moving_bookmark_failed_tip">Failed to move bookmark(s).</sys:String>
+    <sys:String x:Key="manager_bookmark_view_Loading_tip">Loading data, please wait...</sys:String>
+    <sys:String x:Key="manager_bookmark_view_TreeV_header1_tip">Name</sys:String>
+    <sys:String x:Key="manager_bookmark_view_TreeV_header2_tip">Url</sys:String>
+    <sys:String x:Key="manager_bookmark_view_iCloud_header_tip">Please follow below steps to close Safari in iCloud.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_iCloud_tip1">1. Go to Settings. Tap iCloud.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_iCloud_tip2">2. Toggle off Safari option under iCloud.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_iCloud_tip3">3. Select "Keep on my iPhone".</sys:String>
+    <Image x:Key="manager_bookmark_view_iCloud_image_tip1" Stretch="None" Source="pack://application:,,,/iCareFone;component/Themes/Images/iCloud/EN_Settings_iCloud.png"/>
+    <Image x:Key="manager_bookmark_view_iCloud_image_tip2" Stretch="None" Margin="20 0" Source="pack://application:,,,/iCareFone;component/Themes/Images/iCloud/EN_Tap_Safari.png" />
+    <Image x:Key="manager_bookmark_view_iCloud_image_tip3" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Top" Source="pack://application:,,,/iCareFone;component/Themes/Images/iCloud/EN_Keep_On_My_iPhone.png" />
+    <sys:String x:Key="manager_bookmark_view_export_header_tip">Export to HTML</sys:String>
+    <sys:String x:Key="manager_bookmark_view_export_discription_tip">Exporting bookmark(s) into HTML, please wait...</sys:String>
+    <sys:String x:Key="manager_bookmark_view_export_success_tip">Succeeded to export into HTML.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_PC_insufficient_tip">Insufficient disk space! Please change the storage path.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_TV_no_data_tip">No Bookmarks</sys:String>
+    <sys:String x:Key="manager_bookmark_view_total_bookmarks_tip">{0} bookmarks.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_selected_bookmark_tip">{0} bookmark selected</sys:String>
+    <sys:String x:Key="manager_bookmark_view_selected_bookmarks_tip">{0} bookmarks selected</sys:String>
+
+    <sys:String x:Key="manager_bookmark_view_add_bookmark_tip">Add Bookmark</sys:String>
+    <sys:String x:Key="manager_bookmark_view_save_bookmark_tip">Save Bookmark</sys:String>
+    <sys:String x:Key="manager_bookmark_view_add_folder_tip">Add Folder</sys:String>
+    <sys:String x:Key="manager_bookmark_view_save_folder_tip">Save Folder</sys:String>
+    <sys:String x:Key="manager_bookmark_view_rename_folder_tip">Rename Folder</sys:String>
+    <sys:String x:Key="manager_bookmark_view_edit_bookmark_tip">Edit Bookmark</sys:String>
+    <sys:String x:Key="manager_bookmark_view_delete_bookmark_tip">Delete Bookmarks</sys:String>
+    <sys:String x:Key="manager_bookmark_view_delete_single_success_tip">1 bookmark successfully deleted.</sys:String>
+    <sys:String x:Key="manager_bookmark_view_delete_single_failed_tip">1 bookmark failed to delete.</sys:String>
+    <sys:String x:Key="manager_bookmark_change_path_tip">Bookmark files(*.html)|*.html</sys:String>
+    <sys:String x:Key="manager_bookmark_view_bookmark_name">Please add the bookmark name</sys:String>
+    <sys:String x:Key="manager_bookmark_view_bookmark_url">Please add the link address</sys:String>
+    <sys:String x:Key="manager_bookmark_view_folder_name">Folder Name</sys:String>
+    <!--#endregion-->
+
+    <!--#region photo viewer tips-->
+    <sys:String x:Key="video_viewer_tip_loading">Loading, please wait ...</sys:String>
+    <sys:String x:Key="video_viewer_tip_iCloud_tips">This photo hasn't been downloaded from Apple Photo Stream server yet. Please click the cloud icon on your device to get it downloaded first.</sys:String>
+    <sys:String x:Key="video_viewer_tip_iCloud_link">Why failed to view photo(s)?</sys:String>
+
+    <sys:String x:Key="photo_viewer_tip_no_photos">No Photos</sys:String>
+    <sys:String x:Key="photo_viewer_tip_loading">Loading ...</sys:String>
+    <sys:String x:Key="photo_viewer_tip_load_failed">Failed to load</sys:String>
+    <sys:String x:Key="photo_viewer_tip_view_title">View Photo</sys:String>
+    <sys:String x:Key="photo_viewer_tip_export_title">Export Photos</sys:String>
+    <sys:String x:Key="photo_viewer_tip_export_header">Waiting for export ...</sys:String>
+    <sys:String x:Key="photo_viewer_tip_export_description">Export photo(s) (1/1)</sys:String>
+    <sys:String x:Key="photo_viewer_tip_export_succeed">1 photo successfully exported.</sys:String>
+    <sys:String x:Key="photo_viewer_tip_export_failed">1 photo failed to export.</sys:String>
+    <sys:String x:Key="photo_viewer_tip_iCloud_tips">{0} has detected "iCloud Photo Library" is enabled and selected as "Optimize iPhone Storage". These iCloud photos can only be exported as thumbnails? Are you sure you want to export?</sys:String>
+    <sys:String x:Key="photo_viewer_tip_iCloud_link">How to export orginals?</sys:String>
+    <sys:String x:Key="photo_viewer_tip_insufficient_computer_space">Insufficient disk space! Please change the storage path.</sys:String>
+
+    <sys:String x:Key="video_viewer_tip_load_failed">There is not enough space on the disk to play the video!</sys:String>
+    <sys:String x:Key="photo_viewer_tip_iCloud_delete_tips">iCloud photos would not be deleted.</sys:String>
+    <!--#endregion-->
+
+    <!--#region photo export config tips-->
+    <sys:String x:Key="manager_photo_export_config_view_tip_title">Photos Export Settings</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_heic_header">Set export format for HEIC photo(s):</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_heic_format_jpg">JPG format</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_heic_format_heic">HEIC format</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_live_header">Set export format for Live photo(s):</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_live_format_video">JPG/HEIC photo(s) with MOV video(s)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_live_format_photo">JPG or HEIC photo(s) only</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_hevc_header">Set export format for HEVC video(s):</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_hevc_format_h264">H.264 (Available for most media players but slow in exporting)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_hevc_format_h265">HEVC/H.265 (Media players may not support playback but it's fast in exporting)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_reset">Restore to default</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup and restore view tips-->
+    <sys:String x:Key="backup_and_restore_view_tip_private_data">Private Data</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_media_data">Media Data</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_app_data">App Data</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Contacts">Contacts</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Messages">Messages</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_MessageAttachments">SMS Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_MessagesAndAttachments">Messages &amp; Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_CallHistory">Call History</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Notes">Notes</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_NoteAttachments">Notes Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_NotesAndAttachments">Notes &amp; Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Calendars">Calendars</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Reminders">Reminders</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Voicemail">Voicemail</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Bookmarks">Bookmarks</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Photos">Photos</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Music">Music</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Videos">Videos</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_VoiceMemos">Voice Memos</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_AppPhotos">App Photos</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_AppVideos">App Videos</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_AppDocuments">App Documents</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_WhatsApp">WhatsApp</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_WhatsAppAttachments">WhatsApp Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_WhatsAppAndAttachments">WhatsApp &amp; Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Kik">Kik</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_KikAttachments">Kik Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_KikAndAttachments">Kik &amp; Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Viber">Viber</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_ViberAttachments">Viber Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_ViberAndAttachments">Viber &amp; Attachments</sys:String>
+    <sys:String x:Key="backup_and_restore_view_tip_Tango">Tango</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup producer view tips-->
+    <sys:String x:Key="backup_producer_view_tip_disconnected">Please connect your iPhone, iPad or iPod to computer via USB cable</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_connected">[b][color=#FF0AB3CB][binding=BackupTarget]iDevice[/binding][/color][/b] is connected, please select the file type(s) you want to backup</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_backing_up_header">Backing up selected data on your [b][color=#FF0AB3CB][binding=BackupTarget]iDevice[/binding][/color][/b]</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_backed_up_header">Backup Completed !</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_backup_path">Backup Path:</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_edit">Edit</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_last_backup_time">Last backup time:</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_analysis_linker">To view or restore previous backup files &gt;&gt;</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_backup">Backup</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_backing_up_description">Backing up files...</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_backing_up_warning">Please do not disconnect the device.</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_view_backup_data">View Backup Data</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_view_backup_list">View Backup List</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_backup_failed_footer">Some data failed to backup and could not be obtained on your device. Please try again or contact Support Center.</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_option_failed">Unable to obtain data.</sys:String>
+
+    <sys:String x:Key="backup_producer_view_msg_no_connect_text">Please connect your iPhone, iPad or iPod to computer via USB cable.</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_no_connect_btn">OK</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_no_option_text">Please select the data you want to backup!</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_no_option_btn">OK</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_insufficient_space_text">Insufficient disk space! Please change the storage path.</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_insufficient_space_btn">OK</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_backup_failed_text">Failed to backup {0}!</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_backup_failed_btn">OK</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_disconnected_text">The device "{0}" has been disconnected. Please reconnect the device and try again.</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_disconnected_btn">OK</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_quit_text">The program is running. Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_quit_btn_yes">Yes</sys:String>
+    <sys:String x:Key="backup_producer_view_msg_quit_btn_no">No</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup browser view tips-->
+    <sys:String x:Key="backup_browser_view_tip_header">Select a backup to view or restore</sys:String>
+    <sys:String x:Key="backup_browser_view_tip_model">Model</sys:String>
+    <sys:String x:Key="backup_browser_view_tip_name">Name</sys:String>
+    <sys:String x:Key="backup_browser_view_tip_backup_date">Backup Date</sys:String>
+    <sys:String x:Key="backup_browser_view_tip_file_size">File Size</sys:String>
+    <sys:String x:Key="backup_browser_view_tip_owner">Owner</sys:String>
+    <sys:String x:Key="backup_browser_view_tip_browser_description">No backups listed here? Add backup file(s) manually.</sys:String>
+    <sys:String x:Key="backup_browser_view_tip_browser_linker">Select Path >></sys:String>
+    <sys:String x:Key="backup_browser_view_tip_backup_linker">To backup your device >></sys:String>
+    <sys:String x:Key="backup_browser_view_tip_view">View</sys:String>
+
+    <sys:String x:Key="backup_browser_view_msg_delete_text">Are you sure you want to delete the backup file(s) from your computer?</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_delete_btn_yes">Yes</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_delete_btn_no">No</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_analysis_failed_text">Error reading file! Please reselect a backup file and try again.</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_analysis_failed_btn">OK</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_no_option_text">Please select a backup file to scan</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_no_option_btn">OK</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_file_corrupted_text">The backup file is corrupted. Please re-select.</sys:String>
+    <sys:String x:Key="backup_browser_view_msg_file_corrupted_btn">OK</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup manager view tips-->
+    <sys:String x:Key="backup_manager_view_tip_export_to_computer">Export to Computer</sys:String>
+    <sys:String x:Key="backup_manager_view_tip_restore_to_device">Restore to Device</sys:String>
+    <sys:String x:Key="backup_manager_view_tip_no_matched">No matching search item was found. Please search again.</sys:String>
+    <sys:String x:Key="backup_manager_view_tip_unknow">Unknow</sys:String>
+
+    <sys:String x:Key="backup_manager_view_tip_single_item">1 item, {0}</sys:String>
+    <sys:String x:Key="backup_manager_view_tip_multiple_items">{0} items, {1}</sys:String>
+    <sys:String x:Key="backup_manager_view_tip_single_selected">1 item selected, {0}</sys:String>
+    <sys:String x:Key="backup_manager_view_tip_multiple_selected">{0} items selected, {1}</sys:String>
+
+    <sys:String x:Key="backup_manager_view_msg_export_no_option_text">Please select the file(s) you want to export!</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_export_no_option_btn">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_export_insufficient_space_text">Insufficient disk space! Please change the storage path.</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_export_insufficient_space_btn">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_export_failed_text">Export Failed!</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_export_failed_btn">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_no_connect_text">Please connect your iPhone, iPad or iPod to computer via USB cabel.</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_no_connect_btn">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_no_option_text">Please select the data you want to Restore.</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_no_option_btn">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_limited_text">{0} only supports to restore message, bookmarks, contacts, photos, videos and music directly to your device.</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_limited_btn_continue">Continue to Restore</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_limited_btn_cancel">Cancel</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_limited_btn_ok">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_insufficient_space_text">Insufficient space on the device! Please free up some space.</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_insufficient_space_btn">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_failed_text">Restore Failed!</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_restore_failed_btn">OK</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_quit_text">The program is running. Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_quit_btn_yes">Yes</sys:String>
+    <sys:String x:Key="backup_manager_view_msg_quit_btn_no">No</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup analysis view tips-->
+    <sys:String x:Key="backup_analysis_view_tip_scanning">Scanning backup file, please wait...</sys:String>
+    <sys:String x:Key="backup_analysis_view_tip_remaining_time">Time remaining :</sys:String>
+    <sys:String x:Key="backup_analysis_view_tip_no_files">No File</sys:String>
+
+    <sys:String x:Key="backup_analysis_view_msg_quit_text">The program is running. Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="backup_analysis_view_msg_quit_btn_yes">Yes</sys:String>
+    <sys:String x:Key="backup_analysis_view_msg_quit_btn_no">No</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup contact view tips-->
+    <sys:String x:Key="backup_contact_view_tip_name">Name</sys:String>
+    <sys:String x:Key="backup_contact_view_tip_phone_number">Phone Number</sys:String>
+    <sys:String x:Key="backup_contact_view_tip_email">Email</sys:String>
+    <sys:String x:Key="backup_contact_view_tip_company">Company</sys:String>
+    <sys:String x:Key="backup_contact_view_tip_note">Note</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup message view tips-->
+    <sys:String x:Key="backup_message_view_tip_phone">Phone :</sys:String>
+    <sys:String x:Key="backup_message_view_tip_all_phone">All Phone</sys:String>
+    <sys:String x:Key="backup_message_view_tip_content">Content</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup call history view tips-->
+    <sys:String x:Key="backup_call_history_view_tip_name">Name</sys:String>
+    <sys:String x:Key="backup_call_history_view_tip_number">Number</sys:String>
+    <sys:String x:Key="backup_call_history_view_tip_date">Date</sys:String>
+    <sys:String x:Key="backup_call_history_view_tip_type">Type</sys:String>
+    <sys:String x:Key="backup_call_history_view_tip_duration">Duration</sys:String>
+    <sys:String x:Key="backup_call_history_view_tip_missed_call">Missed Call</sys:String>
+    <sys:String x:Key="backup_call_history_view_tip_incoming_call">Incoming Call</sys:String>
+    <sys:String x:Key="backup_call_history_view_tip_outgoing_call">Outgoing Call</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup note view tips-->
+    <sys:String x:Key="backup_note_view_tips_title">Title</sys:String>
+    <sys:String x:Key="backup_note_view_tips_date">Date</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup calendar view tips-->
+    <sys:String x:Key="backup_calendar_view_tips_title">Title</sys:String>
+    <sys:String x:Key="backup_calendar_view_tips_start_date">Start Date</sys:String>
+    <sys:String x:Key="backup_calendar_view_tips_end_date">End Date</sys:String>
+    <sys:String x:Key="backup_calendar_view_tips_location">Location</sys:String>
+    <sys:String x:Key="backup_calendar_view_tips_note">Note</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup reminder view tips-->
+    <sys:String x:Key="backup_reminder_view_tips_title">Title</sys:String>
+    <sys:String x:Key="backup_reminder_view_tips_list">List</sys:String>
+    <sys:String x:Key="backup_reminder_view_tips_state">State</sys:String>
+    <sys:String x:Key="backup_reminder_view_tips_date">Date</sys:String>
+    <sys:String x:Key="backup_reminder_view_tips_completed">Completed</sys:String>
+    <sys:String x:Key="backup_reminder_view_tips_no_completed">No Completed</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup voicemail view tips-->
+    <sys:String x:Key="backup_voicemail_view_tip_content">Content</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup bookmark view tips-->
+    <sys:String x:Key="backup_bookmark_view_tips_title">Title</sys:String>
+    <sys:String x:Key="backup_bookmark_view_tips_location">Location</sys:String>
+    <sys:String x:Key="backup_bookmark_view_tips_url">URL</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup music view tips-->
+    <sys:String x:Key="backup_music_view_tips_name">Name</sys:String>
+    <sys:String x:Key="backup_music_view_tips_duration">Duration</sys:String>
+    <sys:String x:Key="backup_music_view_tips_artist">Artist</sys:String>
+    <sys:String x:Key="backup_music_view_tips_album">Album</sys:String>
+    <sys:String x:Key="backup_music_view_tips_size">Size</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup video view tips-->
+    <sys:String x:Key="backup_video_view_tips_title">Title</sys:String>
+    <sys:String x:Key="backup_video_view_tips_duration">Duration</sys:String>
+    <sys:String x:Key="backup_video_view_tips_format">Format</sys:String>
+    <sys:String x:Key="backup_video_view_tips_size">Size</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup app video view tips-->
+    <sys:String x:Key="backup_app_video_view_tips_title">Title</sys:String>
+    <sys:String x:Key="backup_app_video_view_tips_duration">Duration</sys:String>
+    <sys:String x:Key="backup_app_video_view_tips_format">Format</sys:String>
+    <sys:String x:Key="backup_app_video_view_tips_size">Size</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup app document view tips-->
+    <sys:String x:Key="backup_app_document_view_tips_title">Title</sys:String>
+    <sys:String x:Key="backup_app_document_view_tips_format">Format</sys:String>
+    <sys:String x:Key="backup_app_document_view_tips_size">Size</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup restorer view tips-->
+    <sys:String x:Key="backup_restorer_view_tip_restoring_header">Restoring data to [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color], please wait...</sys:String>
+    <sys:String x:Key="backup_restorer_view_tip_restoring_warning">Please do not disconnect the device.</sys:String>
+    <sys:String x:Key="backup_restorer_view_tip_restoring_description">Restoring [binding=RestoringTitle]Option[/binding] to the device.</sys:String>
+    <sys:String x:Key="backup_restorer_view_tip_restored_header">Restore Completed</sys:String>
+    <sys:String x:Key="backup_restorer_view_tip_cancelling">Cancelling restore, please wait ...</sys:String>
+
+    <sys:String x:Key="backup_restorer_view_msg_no_connect_text">Please connect your iPhone, iPad or iPod to computer via USB cabel.</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_no_connect_btn">OK</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_disconnected_text">The device "{0}" has been disconnected. Please reconnect the device and try again.</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_disconnected_btn">OK</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_stop_text">Restoring data. Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_stop_btn_yes">Yes</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_stop_btn_no">No</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_quit_text">The program is running. Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_quit_btn_yes">Yes</sys:String>
+    <sys:String x:Key="backup_restorer_view_msg_quit_btn_no">No</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup export view tips-->
+    <sys:String x:Key="backup_export_view_tip_exporting">Exporting...</sys:String>
+    <sys:String x:Key="backup_export_view_tip_description">Exporting {0} ({1} / {2}) ...</sys:String>
+    <!--eg: Exporting Videos (5 / 15) ...-->
+    <sys:String x:Key="backup_export_view_tip_progress">Progress:</sys:String>
+    <sys:String x:Key="backup_export_view_tip_completed">Export Completed!</sys:String>
+    <sys:String x:Key="backup_export_view_tip_failed">Export Failed!</sys:String>
+
+    <sys:String x:Key="backup_export_view_msg_stop_text">Exporting in progress. Are you you want to cancel?</sys:String>
+    <sys:String x:Key="backup_export_view_msg_stop_btn_yes">Yes</sys:String>
+    <sys:String x:Key="backup_export_view_msg_stop_btn_no">No</sys:String>
+    <!--#endregion-->
+
+    <!--#region iCloud check view tips-->
+    <sys:String x:Key="iCloud_check_view_tip_find_my_iPhone_header">You need to turn off "Find My iPhone" on [binding=DeviceType]DeviceType[/binding] to continue.</sys:String>
+    <sys:String x:Key="iCloud_check_view_tip_find_my_iPhone_setting_first">1. Go to Settings. Tap iCloud.</sys:String>
+    <sys:String x:Key="iCloud_check_view_tip_find_my_iPhone_setting_second">2. Tap Find My iPhone.</sys:String>
+    <sys:String x:Key="iCloud_check_view_tip_find_my_iPhone_setting_third">3. Disabled Find My iPhone.</sys:String>
+    <sys:String x:Key="iCloud_check_view_tip_union_header">Please follow below steps to close Contacts and Safari in iCloud.</sys:String>
+    <sys:String x:Key="iCloud_check_view_tip_union_setting_first">1. Go to Settings. Tap iCloud.</sys:String>
+    <sys:String x:Key="iCloud_check_view_tip_union_setting_second">2. Toggle off Contacts and Safari option under iCloud.</sys:String>
+    <sys:String x:Key="iCloud_check_view_tip_union_setting_third">3. Select "Keep on my iPhone".</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup analysiser decrypt view tips-->
+    <sys:String x:Key="backup_analysiser_decrypt_view_tip_header">This bakcup is encrypted. Please enter the password to unlock your backup files.</sys:String>
+    <sys:String x:Key="backup_analysiser_decrypt_view_tip_warning">The password is invalid! Please try again.</sys:String>
+    <sys:String x:Key="backup_analysiser_decrypt_view_tip_linker_description">Tips: If you forgot the backup password, you can use 4uKey - iTunes Backup to recover the password.</sys:String>
+    <sys:String x:Key="backup_analysiser_decrypt_view_tip_linker">4uKey - iTunes Backup</sys:String>
+    <sys:String x:Key="backup_analysiser_decrypt_view_tip_decrypting">Decrypting the backup files...</sys:String>
+    <sys:String x:Key="backup_analysiser_decrypt_view_tip_cancelling">Cancelling decryption, please wait...</sys:String>
+    <sys:String x:Key="backup_analysiser_decrypt_view_tip_insufficient_space">{0}is required to decrypt the backup files. Please free some space on the {1} disk and try again.</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup producer decrypt view tips-->
+    <sys:String x:Key="backup_producer_decrypt_view_tip_backup_header">Please enter the password to unlock backup. Skipping the process may cause the failure of backup.</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_restore_header">Please enter the backup password of [color=#FF0AB3CB][binding=DeviceType]TargetDevice[/binding][/color] to continue.</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_warning">The password is invalid! Please try again.</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_linker_description">Tips: If you forgot the backup password, you can use 4uKey - iTunes Backup to recover the password.</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_linker">4uKey - iTunes Backup</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_decrypting">Decrypting backup ...</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_cancelling">Cancelling decryption, please wait...</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_screen_password">Please enter the passcode to unlock [color=#FF0AB3CB][binding=DeviceContext.NameWithType]iDevice[/binding][/color] device to continue.</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_not_receive_notification">Didn't see the prompt for lock screen password?</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_show_again">Show Again</sys:String>
+    <sys:String x:Key="backup_producer_decrypt_view_tip_failed_to_decrypt">Failed to detect {0} device information! Please reconnect your device and try again.</sys:String>
+    <!--#endregion-->
+
+    <!--#region ios system repair view tips-->
+    <sys:String x:Key="sr_system_repair_view_tip_title">iOS System Repair</sys:String>
+
+    <sys:String x:Key="sr_normal_start_view_tip_header">iOS System Repair supports to fix the following issues without data loss.</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_description">Stuck on Apple logo, recovery mode loop, black screen, other...</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_start_repair">Start Repair</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_notes_header">Notes：</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_notes_first">1. This software doesn't support to repair hardware failure on your device.</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_notes_second">2. iOS will be updated to the latest version after repair.</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_notes_third">3. Device will be restored to non-jailbroken state after repair.</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_notes_forth">4. Please ensure the device has enough power.</sys:String>
+    <sys:String x:Key="sr_normal_start_view_tip_linker">Advanced Mode >></sys:String>
+
+    <sys:String x:Key="sr_advance_start_view_tip_header">iOS System Repair - Advanced Mode</sys:String>
+    <sys:String x:Key="sr_advance_start_view_tip_description">If system recovery under Standard Mode does not work, please try Advanced Mode. Click "Start Repair" to continue.</sys:String>
+    <sys:String x:Key="sr_advance_start_view_tip_mark">Using Advanced Mode will completely erase all data on your device.</sys:String>
+    <sys:String x:Key="sr_advance_start_view_tip_start_repair">Start Repair</sys:String>
+    <sys:String x:Key="sr_advance_start_view_tip_warning_header">Warning:</sys:String>
+    <sys:String x:Key="sr_advance_start_view_tip_warning_first">1. Please ensure the device has enough power.</sys:String>
+    <sys:String x:Key="sr_advance_start_view_tip_linker">Standard Mode >></sys:String>
+
+    <sys:String x:Key="sr_firmware_check_view_tip_header_normal">[color=#FF0AB3CB][binding=TargetDevice]TargetDevice[/binding][/color] is connected now</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_header_recovery">[color=#FF0AB3CB][binding=TargetDevice]TargetDevice[/binding][/color] is connected now(Recovery Mode)</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_header_dfu">[color=#FF0AB3CB][binding=TargetDevice]TargetDevice[/binding][/color] is connected now(DFU Mode)</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_description">Before repair, please confirm the model info and download the matching firmware package.</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_firmware_information">Firmware information</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_model">Model :</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_version">Version :</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_save_path">Save Path :</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_browse">Browse</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_download">Download</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_copy_header">Copy</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_copy_description">Download firmware failed? Click "Copy" and download through browser.</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_select_header">Select</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_select_description">Already got a firmware? Please select the firmware to start repair.</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_checking">Getting firmware version, please wait...</sys:String>
+    <sys:String x:Key="sr_firmware_check_view_tip_failed">Failed to obtain the firmware download address, please check up your network and try again.</sys:String>
+
+    <sys:String x:Key="sr_firmware_download_view_tip_header">Download the firmware package</sys:String>
+    <sys:String x:Key="sr_firmware_download_view_tip_description">It'll take some time, please wait patiently.</sys:String>
+    <sys:String x:Key="sr_firmware_download_view_tip_stop">Stop</sys:String>
+    <sys:String x:Key="sr_firmware_download_view_msg_insufficient_space">Sorry. Firmware downloading failed due to insufficient hard disk. Please release enough space (about 6GB) in your hard disk and then download again.</sys:String>
+    <sys:String x:Key="sr_firmware_download_view_msg_failed">Failed to download firmware package! Please check your Internet connection and try again.</sys:String>
+    <sys:String x:Key="sr_firmware_download_view_msg_quit_text">The program is running, are you sure you want to cancel it?</sys:String>
+    <sys:String x:Key="sr_firmware_download_view_msg_stop_text">The program is running, are you sure you want to stop it?</sys:String>
+    <sys:String x:Key="sr_firmware_download_view_msg_disconnected">The device "{0}" has been disconnected. Please reconnect your device and try again.</sys:String>
+
+    <sys:String x:Key="sr_firmware_download_completed_view_tip_header">The firmware package has been downloaded successfully.</sys:String>
+    <sys:String x:Key="sr_firmware_download_completed_view_tip_firmware_information">Firmware information :</sys:String>
+    <sys:String x:Key="sr_firmware_download_completed_view_tip_model">Model :</sys:String>
+    <sys:String x:Key="sr_firmware_download_completed_view_tip_version">System Version :</sys:String>
+    <sys:String x:Key="sr_firmware_download_completed_view_tip_repair_now">Repair Now</sys:String>
+
+    <sys:String x:Key="sr_firmware_download_failed_view_tip_header">Failed to download firmware package!</sys:String>
+    <sys:String x:Key="sr_firmware_download_failed_view_tip_internet">Please check your Internet connection and try again.</sys:String>
+    <sys:String x:Key="sr_firmware_download_failed_view_tip_rights">Cannot download firmware package because the disk is write protected.</sys:String>
+    <sys:String x:Key="sr_firmware_download_failed_view_tip_try_again">Try Again</sys:String>
+
+    <sys:String x:Key="sr_firmware_import_view_tip_header">Import the Firmware package manually</sys:String>
+    <sys:String x:Key="sr_firmware_import_view_tip_description">If you already got the firmware of [color=#FF0AB3CB][binding=TargetDevice]TargetDevice[/binding][/color], please manually import it.</sys:String>
+    <sys:String x:Key="sr_firmware_import_view_tip_path">Path:</sys:String>
+    <sys:String x:Key="sr_firmware_import_view_tip_browse">Browse</sys:String>
+    <sys:String x:Key="sr_firmware_import_view_tip_repair_now">Repair Now</sys:String>
+
+    <sys:String x:Key="sr_repair_view_tip_header">Repair now</sys:String>
+    <sys:String x:Key="sr_repair_view_tip_description">Please keep your device connected, and do not use the device during the repair process to avoid causing the device "bricked".</sys:String>
+    <sys:String x:Key="sr_repair_view_tip_prepare">Verifying and analyzing the firmware package ...</sys:String>
+    <sys:String x:Key="sr_repair_view_tip_repairing">Repairing the device, please wait ...</sys:String>
+    <sys:String x:Key="sr_repair_view_tip_estimated">Estimated time : 10 minutes</sys:String>
+    <sys:String x:Key="sr_repair_view_tip_stop">Stop</sys:String>
+    <sys:String x:Key="sr_repair_view_msg_unmatched_text">The firmware package doesn't match your device model. Please re-selected the matching firmware or download online.</sys:String>
+    <sys:String x:Key="sr_repair_view_msg_quit_text">System repair in progress. If you close the program now, it will cause the repair to fail and your device may be bricked.  Are you sure you want to close?</sys:String>
+
+    <sys:String x:Key="sr_repair_succeed_view_tip_header">The repair process is completed.</sys:String>
+    <sys:String x:Key="sr_repair_succeed_view_tip_description">Please check whether the device is booted normally. If not, please restart your device and try again.</sys:String>
+    <sys:String x:Key="sr_repair_succeed_view_tip_done">Done</sys:String>
+    <sys:String x:Key="sr_repair_succeed_view_tip_linker">Repair failed? Contact us for more help.</sys:String>
+
+    <sys:String x:Key="sr_normal_failed_view_tip_header">Repair system failed.</sys:String>
+    <sys:String x:Key="sr_normal_failed_view_tip_description">If your device cannot boot normally, please try Advanced Mode repair.</sys:String>
+    <sys:String x:Key="sr_normal_failed_view_tip_warning">Using Advanced Mode will completely erase all data on your device.</sys:String>
+    <sys:String x:Key="sr_normal_failed_view_tip_advanced_mode">Advanced Mode</sys:String>
+    <sys:String x:Key="sr_normal_failed_view_tip_done">Done</sys:String>
+    <sys:String x:Key="sr_normal_failed_view_tip_linker">Repair failed? Contact us for more help.</sys:String>
+
+    <sys:String x:Key="sr_advance_failed_view_tip_header">Repair system failed.</sys:String>
+    <sys:String x:Key="sr_advance_failed_view_tip_description">Please try to restart your device manually. If the device cannot be restarted, please contact us for remote assistance.</sys:String>
+    <sys:String x:Key="sr_advance_failed_view_tip_contact_us">Contact us</sys:String>
+    <sys:String x:Key="sr_advance_failed_view_tip_done">Done</sys:String>
+
+    <sys:String x:Key="sr_recovery_guider_view_tip_header">No device detected! Please connect your device and follow the steps below to put your device in Recovery Mode to get it detected.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_others_title">Other iPhones</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_others_first">1. Connect your device to computer via USB cable.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_others_second">2. Press and hold the [b]Power button[/b] and [b]Home button[/b] at the same time.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_others_third">3. Release both buttons after the screen displays the "Connect to iTunes or Computer" logo.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_7_title">iPhone 7 / 7 Plus</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_7_first">1. Connect your device to computer via USB cable.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_7_second">2. Press and hold the [b]Power button[/b] and [b]Volume Down button[/b] at the same time.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_7_third">3. Release the two buttons till the screen shows "Connect to iTunes".</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_above_title">iPhone 8 and above</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_above_first">1. Connect your device to PC via USB cable. Quickly press and release the Volume Up button and then the Volume Down button. Long hold the Power button until the screen turns completly black.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_above_second">2. Continue holding the [b]Power button[/b], even after you see the Apple logo appear.</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_above_third">3. Release the [b]Side[/b] button When the "Connect to iTunes or Computer" logo appears on the screen .</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_linker_description">If you are unable to put the device into Recovery Mode, please click here to Enter DFU Mode</sys:String>
+    <sys:String x:Key="sr_recovery_guider_view_tip_linker">Enter DFU Mode</sys:String>
+
+    <sys:String x:Key="sr_dfu_guider_view_tip_header">No device detected! Please connect your device and follow the steps below to put your device in DFU Mode to get it detected.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_others_title">Other iPhones</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_others_first">1. Connect your device to computer via USB cable.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_others_second">2. Press and hold the [b]Power button[/b] and [b]Home button[/b] simultaneously for 10 seconds.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_others_third">3. Release the [b]Power button[/b] but continue to hold the [b]Home button[/b] for 10 more seconds. The screen should remain black if you've successfully entered DFU Mode.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_7_title">iPhone 7 / 7 Plus</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_7_first">1. Connect your device to computer via USB cable.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_7_second">2. Press and hold the [b]Volume Down button[/b] and [b]Power button[/b] simultaneously for 10 seconds.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_7_third">3. Release the [b]Power button[/b] but continue to hold the [b]Volume Down button[/b] for 10 more seconds. The screen should remain black if you've successfully entered DFU Mode.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_above_title">iPhone 8 and above</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_above_first">1. Connect your device to PC via USB cable. Quickly press and release the Volume Up button and then the Volume Down button. Long hold the Power button until the screen turns completly black.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_above_second">2. Press and hold the [b]Volume Down button[/b] and [b]Power button[/b] for 5 seconds.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_above_third">3. Release the [b]Power button[/b] but keep holding the [b]Volume Down button[/b] for 10 more seconds.The screen should remain black if you've successfully entered DFU Mode.</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_linker_description">If you are unable to put the device into DFU Mode, please click here to Enter Recovery Mode</sys:String>
+    <sys:String x:Key="sr_dfu_guider_view_tip_linker">Enter Recovery Mode</sys:String>
+
+    <sys:String x:Key="sr_disk_space_not_enough">Insufficient storage! Please free up enough storage (5 GB) and try again.</sys:String>
+    <sys:String x:Key="sr_go_to_microsoft_store">The current version of Apple driver (iTunes) that you downloaded is too low. To repair iOS successfully, please click "Go to Upgrade" to update it from Microsoft Store.</sys:String>
+    <sys:String x:Key="sr_go_to_upgrade">Go to Upgrade</sys:String>
+    <sys:String x:Key="sr_need_restart">The current version of Apple driver is too low. To repair iOS successfully, please restart the program to install the newest driver.</sys:String>
+    <sys:String x:Key="sr_restart">Restart</sys:String>
+    <!--#endregion-->
+
+    <!--#region app keys-->
+    <sys:String x:Key="app_broken_tip_before">The currently installed is cracked version. Please go to website (</sys:String>
+    <sys:String x:Key="app_broken_tip_after">) to download the official version of {0}.</sys:String>
+    <sys:String x:Key="app_crash_tip">Oops! {0} has stopped working and will be closed. An error log file is created. Could you please send the error report to us? This will help us solve the problem. Thanks for your support.</sys:String>
+
+    <FlowDirection x:Key="app_flow_direction">LeftToRight</FlowDirection>
+    <!--#endregion-->
+
+    <!--#region V5.4.0-->
+    <sys:String x:Key="manager_view_tip_audio">Audio</sys:String>
+    <sys:String x:Key="manager_view_tip_voice_memos">Voice Memos</sys:String>
+    <sys:String x:Key="manager_view_tip_podcasts">Podcasts</sys:String>
+    <sys:String x:Key="manager_view_tip_audiobooks">Audiobooks</sys:String>
+    <sys:String x:Key="manager_view_tip_movie">Movies</sys:String>
+    <sys:String x:Key="manager_view_tip_music_video">Music Videos</sys:String>
+    <sys:String x:Key="manager_view_tip_home_video">Home Videos</sys:String>
+    <sys:String x:Key="manager_view_tip_tv_show">TV Shows</sys:String>
+    <sys:String x:Key="manager_view_tip_itunes_u_video">iTunes U</sys:String>
+
+    <sys:String x:Key="manager_music_delete_single_tip">Are you sure you want to delete the selected music "{0}"?</sys:String>
+    <sys:String x:Key="manager_music_delete_multi_tip">Are you sure you want to delete the selected {0} pieces of music?</sys:String>
+    <sys:String x:Key="manager_music_delete_multi_with_cloud_tip">Are you sure you want to delete the selected {0} pieces of music?(Cloud files can't be removed from the playlist.)</sys:String>
+
+    <sys:String x:Key="manager_voice_memos_view_import_filter">Music files(*.m4a)|*.m4a</sys:String>
+    <sys:String x:Key="manager_audiobooks_view_import_filter">Music files(*.mp3; *.m4a;*.aac;*.wav;*.m4b)|*.mp3;*.m4a;*.aac;*.wav;*.m4b</sys:String>
+    <sys:String x:Key="manager_music_videos_view_import_filter">Video files(*.mov;*.mp4;*.m4v)|*.mov;*.mp4;*.m4v</sys:String>
+    <!--#endregion-->
+
+
+    <!--#region V5.5.0 App Data Device Select View-->
+
+    <!--#region backup and restore items view tips-->
+    <sys:String x:Key="backup_and_restore_items_view_tip_Device_item">Device Backup &amp; Restore</sys:String>
+    <sys:String x:Key="backup_and_restore_items_view_tip_Device_item_describe">Backup and restore iOS device data, including messages, contacts, apps, etc.</sys:String>
+    <sys:String x:Key="backup_and_restore_items_view_tip_WhatsApp_item">WhatsApp Backup &amp; Restore</sys:String>
+    <sys:String x:Key="backup_and_restore_items_view_tip_WhatsApp_item_describe">Backup WhatsApp data in iOS device and restore the backup to iOS or Android device.</sys:String>
+    <!--#endregion-->
+
+    <!--#region backup and restore whatsapp items view tips-->
+    <sys:String x:Key="backup_and_restore_whatsapp_items_view_tip_backup_item">Backup WhatsApp</sys:String>
+    <sys:String x:Key="backup_and_restore_whatsapp_items_view_tip_backup_item_describe">Backup WhatsApp data from iOS device to computer.</sys:String>
+    <sys:String x:Key="backup_and_restore_whatsapp_items_view_tip_restore_item">Restore WhatsApp</sys:String>
+    <sys:String x:Key="backup_and_restore_whatsapp_items_view_tip_restore_item_describe">Restore WhatsApp backup to iOS or Android device.</sys:String>
+    <!--#endregion-->
+
+    <!--#region WhatsApp Backup view tips-->
+    <sys:String x:Key="backup_and_restore_forapp_view_no_connect_tip">Please connect your iOS device to computer and unlock with passcode.</sys:String>
+    <sys:String x:Key="backup_and_restore_forapp_view_capacity_not_enough_tip">{0} storage is insufficient. Please release more storage and try again.</sys:String>
+    <sys:String x:Key="backup_and_restore_whatsapp_view_not_installed_tip">No WhatsApp is detected on {0}, please install WhatsApp first.</sys:String>
+    <sys:String x:Key="backup_whatsapp_view_procedure_header_tip">Backing up your WhatsApp data, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="backup_forapp_view_procedure_step_tip">Backing up your WhatsApp data, please wait…</sys:String>
+    <sys:String x:Key="backup_forapp_view_procedure_cannot_stop_tip">Please don't stop when the program is analyzing your device. The process will be completed soon.</sys:String>
+    <sys:String x:Key="forapp_stop_tip">The program is running. Are you sure you want to stop?</sys:String>
+
+
+    <sys:String x:Key="backup_forapp_view_procedure_insufficient_space_tip">The disk storage is insufficient for backup. Please release more free storage in your disk and try again.</sys:String>
+    <sys:String x:Key="backup_whatsapp_view_procedure_complate_header_tip">WhatsApp Backup Completed!</sys:String>
+    <sys:String x:Key="backup_whatsapp_view_procedure_succeed_header_tip">WhatsApp Backup Successfully!</sys:String>
+    <sys:String x:Key="backup_whatsapp_view_procedure_succeed_tip">WhatsApp data in [color=#FF0AB3CB][binding=TargetDeviceName]TargetDevice[/binding][/color]  has been backed up successfully.</sys:String>
+    <sys:String x:Key="backup_whatsapp_view_to_restore_tip">Restore WhatsApp>></sys:String>
+    <sys:String x:Key="backup_whatsapp_view_procedure_norecord_header_tip">No WhatsApp Data Found!</sys:String>
+    <sys:String x:Key="backup_whatsapp_view_procedure_norecord_tip">The program does not find any WhatsApp data. Please make sure your device has WhatsApp chat and try again.</sys:String>
+    <sys:String x:Key="backup_whatsapp_view_procedure_failed_header_tip">WhatsApp Backup Failed!</sys:String>
+    <sys:String x:Key="backup_forapp_view_procedure_failed_tip">Please reconnect your device and try again, or contact us.</sys:String>
+    <sys:String x:Key="backup_forapp_view_procedure_failed_decorection_tip">contact us</sys:String>
+    <!--#endregion -->
+
+    <!--#region WhatsApp Backup Browser View-->
+    <sys:String x:Key="forapp_backup_browser_view_tip_header">Select a Backup to Restore</sys:String>
+    <sys:String x:Key="forapp_backup_browser_view_tip_restore_android">Restore to Android</sys:String>
+    <sys:String x:Key="forapp_backup_browser_view_tip_restore_ios">Restore to iOS</sys:String>
+    <sys:String x:Key="forapp_backup_browser_view_msg_no_option_text">Please select a backup first.</sys:String>
+    <sys:String x:Key="forapp_backup_browser_view_tip_no_device_text">Please connect your iOS device to computer and unlock with passcode.</sys:String>
+    <sys:String x:Key="forapp_backup_browser_view_tip_insufficient_space">{0} storage is insufficient. Please release more storage and try again.</sys:String>
+    <sys:String x:Key="whatsapp_backup_browser_view_tip_logon_whatsapp">Please make sure you've logged into WhatsApp on {0}, or the restore will fail.</sys:String>
+    <sys:String x:Key="backup_app_view_not_installed_tip">No {0} is detected on {1}, please install {0} first.</sys:String>
+    <sys:String x:Key="backup_app_view_check_app_server_failed_tip">Failed to get {0} information in {1}! Please reconnect your device.</sys:String>
+    <!--#endregion-->
+
+    <!--#region WhatsApp Restore to iOS View-->
+    <sys:String x:Key="whatsapp_restore_ios_view_tip_restoring">Restoring WhatsApp data to the device, please do not disconnect either device!</sys:String>
+    <sys:String x:Key="forapp_restore_ios_view_tip_progress_value">Restoring WhatsApp data...</sys:String>
+    <sys:String x:Key="whatsapp_restore_ios_view_tip_completed">WhatsApp Restore Completed!</sys:String>
+    <sys:String x:Key="whatsapp_restore_ios_view_tip_completed_succeed_header">WhatsApp Restore Successfully!</sys:String>
+    <sys:String x:Key="whatsapp_restore_ios_view_tip_completed_succeed">WhatsApp data has been restored to [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] successfully.</sys:String>
+    <sys:String x:Key="whatsapp_restore_ios_view_tip_completed_failed_header">WhatsApp Restore Failed!</sys:String>
+    <sys:String x:Key="forapp_restore_ios_view_tip_completed_failed">Restore failed. Please reconnect your device and try again, or contact us.</sys:String>
+    <sys:String x:Key="forapp_restore_ios_view_tip_completed_failed_linker">contact us</sys:String>
+    <sys:String x:Key="forapp_restore_ios_view_tip_backup_read">Please don't stop when the program is analyzing your device. The process will be completed soon.</sys:String>
+    <sys:String x:Key="whatsapp_restore_ios_view_tip_data_transfer">Restoring WhatsApp data to the device, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="forapp_restore_ios_view_tip_stop_previous">The program is running. Are you sure you want to stop?</sys:String>
+    <sys:String x:Key="forapp_restorer_view_msg_local_insufficient_space">The disk storage is insufficient for backup. Please release more free storage in your disk and try again.</sys:String>
+    <sys:String x:Key="forapp_restorer_view_msg_device_insufficient_space">{0} storage is insufficient. Please release more storage and try again.</sys:String>
+    <!--#endregion-->
+
+    <!--#region WhatsApp Restore to iOS View-->
+    <sys:String x:Key="whatsapp_restore_android_view_tip_restoring">Restoring WhatsApp data to the device, please do not disconnect either device!</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_progress_value">Restoring WhatsApp data...</sys:String>
+    <sys:String x:Key="whatsapp_restore_android_view_tip_completed">WhatsApp Restore Completed!</sys:String>
+    <sys:String x:Key="whatsapp_restore_android_view_tip_completed_succeed_header">WhatsApp Restore Successfully!</sys:String>
+    <sys:String x:Key="whatsapp_restore_android_view_tip_completed_succeed">WhatsApp data has been restored to [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] successfully.</sys:String>
+    <sys:String x:Key="whatsapp_restore_android_view_tip_completed_failed_header">WhatsApp Restore Failed!</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_completed_failed">Restore failed. Please reconnect your device and try again, or contact us.</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_completed_failed_linker">contact us</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_backup_read">Please don't stop when the program is analyzing your device. The process will be completed soon.</sys:String>
+    <sys:String x:Key="whatsapp_restore_android_view_tip_data_transfer">Restoring WhatsApp data to the device, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_stop_previous">The program is running. Are you sure you want to stop?</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_attention_first">Tips:</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_attention_second">1. Please keep an eye during the process and respond in the device timely.</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_attention_third">2. The device will restart in the process of transfer. Please unlock it and keep it connected after the restart.</sys:String>
+    <sys:String x:Key="whatsapp_restore_android_view_tip_attention_forth">3. In the process of transfer, the program will uninstall WhatsApp from your device and then reinstall it. Do not worry about that.</sys:String>
+    <!--#endregion-->
+
+    <!--region WhatsApp Restore to Android View-->
+    <sys:String x:Key="restore_forapp_to_android_view_multi_devices_tip">Currently, only one Android device can be transferred, please disconnect other Android devices.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_view_no_device_connect_tip">Please connect your Android device to computer.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_view_no_device_connect_hyperlink_tip">设备已连接但未识别？</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_tabConctrol_header1_tip">iOS Device</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_tabConctrol_header2_tip">Android Device</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_tabItem_header2_tip">设备已连接但未识别？</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_tabItem_guider_first_tip">1. Re-plug your device.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_guider_tabItem_second_tip">2. Try other USB ports or change a USB cable.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_guider_tabItem_third_tip">3. Make sure you turned on MTP mode.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_guider_tabItem_forth_tip">4. Change to PTP mode.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_unrecognized_window_guider_tabItem_forth_hyperlink_tip">Click to download the driver</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_install_driver_window_tip">Installing the drive…</sys:String>
+    <sys:String x:Key="restore_whatsapp_to_android_input_password_window_tip">Please enter the password of the WhatsApp backup.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_input_password_window_error_tip">The password is invalid! Please try again.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_backup_confirm_window_header_tip">Please click "BACK UP MY DATA"  button in the Android device to continue.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_backup_confirm_window_attach_tip">If a passcode is required, please enter the passcode first.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_cannot_stop_tip">Please do not stop during restore, or your data can be lost.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_restore_confirm_window_header_tip">Please click "RESTORE MY DATA" button in Android device to continue.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_restore_confirm_window_attach_tip">If a passcode is required, please enter the passcode first.</sys:String>
+    <sys:String x:Key="restore_forapp_to_android_restore_confirm_window_cancel_tip">The program is in progress. Are you sure you want to stop?</sys:String>
+    <sys:String x:Key="restore_whatsapp_to_android_data_will_be_cover_tip">The WhatsApp data in {0} will be overwritten. Are you sure you want to restore?</sys:String>
+    <!--endregion-->
+
+    <!--#region transfer ios/Android devices select-->
+    <sys:String x:Key="app_data_device_select_left_device_tip">Source:</sys:String>
+    <sys:String x:Key="app_data_device_select_right_device_tip">Destination:</sys:String>
+    <sys:String x:Key="app_data_device_select_unconnect_device_tip">Please connect device</sys:String>
+    <sys:String x:Key="app_data_device_select_device_disconnect_tip">Please connect device</sys:String>
+    <sys:String x:Key="app_data_device_select_device_disconnect_hyperlink_tip">已连接但未识别？</sys:String>
+    <sys:String x:Key="app_data_device_select_need_two_devices_tip">Please connect two devices at least.</sys:String>
+    <sys:String x:Key="app_data_device_select_connected_tip">Connected</sys:String>
+    <sys:String x:Key="app_data_device_select_transfer_tip">Transfer</sys:String>
+    <sys:String x:Key="app_data_device_select_source_android_tip">iCareFone does not support to transfer data from Android device to other devices.</sys:String>
+    <sys:String x:Key="app_data_device_select_source_target_same_tip">Data can't be transferred to the source device! Please connect a destination device.</sys:String>
+    <sys:String x:Key="app_data_device_select_default_android_name_tip">Android device</sys:String>
+    <sys:String x:Key="app_data_device_select_logon_whatsapp_tip">Please make sure you've logged into WhatsApp on {0}, or the transfer will fail.</sys:String>
+    <!--#endregion-->
+
+    <!--#region WhatsApp Transfer to iOS View-->
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_restoring">Transferring WhatsApp data, please do not disconnect either device!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_progress">Transferring files…</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed">WhatsApp Transfer Competed!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed_succeed_header">WhatsApp Transfer Successfully!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed_succeed">WhatsApp data has been transferred from [color=#FF0AB3CB][binding=RestoreSource]RestoreSource[/binding][/color] to [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] successfully.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed_source_data_null_header">No WhatsApp Data Found!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed_source_data_null">No WhatsApp data was found in the source device!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed_source_failed_header">WhatsApp Transfer Failed!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed_source_failed">Transfer failed. Please reconnect your device and try again, or contact us.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_completed_source_failed_linker">contact us</sys:String>
+    <sys:String x:Key="transfer_appdata_to_ios_view_tip_cannot_stop_tip">Please do not stop during transfer, or your data can be lost.</sys:String>
+    <!--#endregion-->
+
+    <!--#region WhatsApp Transfer to Android View-->
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_restoring">Transferring WhatsApp data, please do not disconnect either device!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_progress">Transferring files…</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed">WhatsApp Transfer Competed!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed_succeed_header">WhatsApp Transfer Successfully!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed_succeed">WhatsApp data has been transferred from [color=#FF0AB3CB][binding=SourceIOSContext.NameWithType]SourceDevice[/binding][/color] to [color=#FF0AB3CB][binding=TargetAndroidContext.NameWithType]TargetDevice[/binding][/color] successfully.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed_source_data_null_header">No WhatsApp Data Found!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed_source_data_null">No WhatsApp data was found in the source device!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed_source_failed_header">WhatsApp Transfer Failed!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed_source_failed">Transfer failed. Please reconnect your device and try again, or contact us.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_completed_source_failed_linker">contact us.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_restoring_attention_first">Tips:</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_restoring_attention_second">1. Please keep an eye during the process and respond in the device timely.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_restoring_attention_third">2. The device will restart in the process of transfer. Please unlock it and keep it connected after the restart.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_restoring_attention_forth">3. In the process of transfer, the program will uninstall WhatsApp from your device and then reinstall it. Do not worry about that.</sys:String>
+    <sys:String x:Key="transfer_appdata_tip_reboot_60_s_undetected_android_device">No android device detected! Please reconnect your device and the program will continue after detecting it.</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_cannot_stop_tip">Please do not stop during transfer, or your data can be lost.</sys:String>
+    <!--#endregion-->
+
+    <!--Android USB Debug Model-->
+    <sys:String x:Key="usb_debug_title_tip">请根据下面步骤打开Android设备的USB调试模式来继续：</sys:String>
+    <sys:String x:Key="usb_debug_more_6.0">Android 6.0或更高</sys:String>
+    <sys:String x:Key="usb_debug_more_4.2_5.2">Android 4.2至5.2</sys:String>
+    <sys:String x:Key="usb_debug_more_3.0_4.1">Android 3.0至4.1</sys:String>
+    <sys:String x:Key="usb_debug_more_2.3">Android 2.3或更早</sys:String>
+    <sys:String x:Key="usb_debug_model_hyperlink_tip">根据设备品牌设置USB调试模式的方法>></sys:String>
+    <sys:String x:Key="usb_debug_model_title_tip">请根据下面品牌的引导打开安卓设备的USB调试模式：</sys:String>
+    <sys:String x:Key="android_device_authorization_title_tip">To continue, please follow the steps below to allow the authorization on your device.</sys:String>
+    <sys:String x:Key="android_device_no_authorization">Does not receive the authorization message?</sys:String>
+    <sys:String x:Key="android_device_authorization_show_again">Show Again</sys:String>
+
+    <sys:String x:Key="whatsapp_transfer_data_question_cover">The WhatsApp data in {0} will be overwritten. Are you sure you want to transfer?</sys:String>
+    <sys:String x:Key="forapp_transfer_data_btn_continue">Continue</sys:String>
+    <sys:String x:Key="forapp_transfer_data_btn_cancel">Cancel</sys:String>
+    <sys:String x:Key="forapp_transfer_data_btn_tips">Tips:</sys:String>
+    <sys:String x:Key="forapp_transfer_data_title_tip1">1. The device will restart in the process of transfer. Please keep the device connected after the restart.</sys:String>
+    <sys:String x:Key="whatsapp_transfer_data_title_tip2">2. In the process of transfer, the program will uninstall WhatsApp from your device and then reinstall it.</sys:String>
+
+    <sys:String x:Key="transfer_device_need_two">Please connect two devices at least.</sys:String>
+    <sys:String x:Key="transfer_source_android_device_tip">iCareFone does not support to transfer data from Android device to other devices.</sys:String>
+
+    <sys:String x:Key="find_iphone_device_tip">You need to turn off "Find My iPhone" on {0} to continue.</sys:String>
+    <sys:String x:Key="btn_has_logged">OK</sys:String>
+    <!--#endregion-->
+
+    <!--#region Android Device Connect Guide Tips-->
+    <sys:String x:Key="android_device_usb_debug_view_tip_title">Please follow the steps to enable USB debugging to continue:</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_google">Google</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_samsung_first">Galaxy J</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_samsung_second">Galaxy Note</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_samsung_third">Galaxy S5 S6 S7</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_samsung_fourth">Galaxy S8 S8+</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_huawei_first">Huawei Honor</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_huawei_second">Huawei Mate</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_huawei_third">Huawei P9</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_htc">HTC</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_lg">LG</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_motorola">Motorola</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_oppo">OPPO</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_sony">Sony</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_vivo">VIVO</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_mi_first">Redmi</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_mi_second">Xiaomi</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_oneplus">OnePlus</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_meizu">MEIZU</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_lenovo">Lenovo</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_asus">Asus</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_more_6-0">For Android 6.0 or later</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_more_4-2_5-2">For Android 4.2 to 5.2</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_more_3-0_4-1">For Android 3.0 to 4.1</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_more_2-3">For Android 2.3 or earlier</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_bottom_hyperlink_left">Device still won't connect after enabling USB debugging?</sys:String>
+    <sys:String x:Key="android_device_usb_debug_view_tip_hyperlink_tip">Enable USB debugging according to phone brand>></sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_title">Please enable USB debugging by the following guide according to phone brand:</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_google">Google</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_samsung">Samsung</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_huawei">Huawei</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_htc">HTC</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_lg">LG</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_motorola">Motorola</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_oppo">OPPO</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_sony">SONY</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_vivo">Vivo</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_mi">MI</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_oneplus">OnePlus</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_meizu">MEIZU</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_lenovo">Lenovo</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_asus">ASUS</sys:String>
+    <sys:String x:Key="android_device_usb_debug_brand_view_tip_more">General Settings</sys:String>
+    <sys:String x:Key="android_device_mtp_view_tip_helper_tip_first">1. Find the connection message from the notification bar, and change the USB connection mode to MTP.</sys:String>
+    <sys:String x:Key="android_device_mtp_view_tip_helper_tip_second">2. Make sure the USB debugging is enabled once again after selecting MTP.</sys:String>
+    <sys:String x:Key="android_device_mtp_view_tip_helper_tip_third">3. If your android device still can't connect to PC in MTP mode, please change to PTP mode and try again.</sys:String>
+    <sys:String x:Key="android_device_mtp_view_tip_helper_tip_fourth">4. If none of the above works, please reconnect your device.</sys:String>
+    <!--#endregion-->
+
+    <sys:String x:Key="home_view_tip_whatsapp_transfer">Transfer WhatsApp Data Between iOS and Android Devices</sys:String>
+    <!--#endregion-->
+
+    <sys:String x:Key="android_device_allow_access_view_tip_header">If your Android device prompts this popup, please click "ALLOW".</sys:String>
+    <sys:String x:Key="android_device_allow_access_view_tip_attach">If this popup appeared, but you did not click or click "DENY", please reconnect your device and click "ALLOW".</sys:String>
+    <sys:String x:Key="android_device_allow_access_view_tip_ignore">You can neglect this step if the popup does not appear.</sys:String>
+    <sys:String x:Key="android_device_allow_install_view_tip_header">Please make sure that your Android device has turned on "Install via USB", otherwise it would fail to restore data!</sys:String>
+    <sys:String x:Key="android_device_allow_install_view_tip_header_transfer">Please make sure that your Android device has turned on "Install via USB", otherwise it would fail to transfer data!</sys:String>
+    <sys:String x:Key="android_device_allow_install_view_tip_already">Enabled</sys:String>
+    <sys:String x:Key="android_device_install_package_view_tip_header">Please follow these steps to continue on your Android device.</sys:String>
+    <sys:String x:Key="android_device_install_package_view_tip_attach">If your device restarts, please follow the steps after the restart.</sys:String>
+    <sys:String x:Key="android_device_install_package_view_tip_ignore">No installation notice?</sys:String>
+    <sys:String x:Key="show_again_tip">Show Again</sys:String>
+    <sys:String x:Key="android_device_install_package_view_tip_show_again">Show Again ({0})</sys:String>
+    <sys:String x:Key="android_device_data_backup_view_tip_ignore">Does not receive the backup message?</sys:String>
+    <sys:String x:Key="android_device_data_restore_view_tip_ignore">Does not receive the restore message?</sys:String>
+
+    <sys:String x:Key="android_device_connect_offline_status_tip">The Android device connection is unstable, please reconnect the device to continue.</sys:String>
+
+    <!--#region V5.6.0版本-->
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_music_video">Music Video</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_before_home_video">Home Video</sys:String>
+    <sys:String x:Key="transfer_to_iTunes_view_tip_after_ignore">Ignored [binding=TransferSkippedCount]TransferSkippedCount[/binding] duplicate file(s)!</sys:String>
+    <sys:String x:Key="transfer_to_device_view_tip_after_ignore">Ignored [binding=TransferSkippedCount]TransferSkippedCount[/binding] duplicate file(s)!</sys:String>
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_errorcode_twelve">Transfer failed! Please reconnect {0} and try again!</sys:String>
+    <sys:String x:Key="backup_forapp_view_procedure_tip_errorcode_twelve">Backup failed! Please reconnect your device and try again.</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_errorcode_twelve">Backup failed! Please reconnect your device and try again.</sys:String>
+    <!--#endregion-->
+
+    <!--#region V5.7.0版本-->
+
+    <!--#region 安卓2安卓-->
+    <sys:String x:Key="transfer_Android_to_iOS_tip_pc_insufficient_space">Insufficient storage!</sys:String>
+    <sys:String x:Key="transfer_Android_to_iOS_tip_completed_succeed">WhatsApp data has been transferred from [color=#FF0AB3CB][binding=SourceAndroidContext.NameWithType]SourceDevice[/binding][/color] to [color=#FF0AB3CB][binding=TargetIOSContext.NameWithType]TargetDevice[/binding][/color] successfully.</sys:String>
+    <!--#endregion-->
+
+    <!--#region 取消文案-->
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_cancelling">Cancelling…</sys:String>
+    <sys:String x:Key="forapp_restore_android_view_tip_cancelling">Cancelling…</sys:String>
+    <sys:String x:Key="backup_producer_view_tip_cancelling">Cancelling…</sys:String>
+    <!--#endregion-->
+
+    <!--#region WhatsApp传输设备选择界面添加-->
+    <sys:String x:Key="app_data_device_select_Android_device_unstable_tip">The {0} connection is not stable, please reconnect the device and try again.</sys:String>
+    <sys:String x:Key="app_data_device_select_pc_insufficient_space_tip">Insufficient storage! Please free up enough storage ({0}) and try again.</sys:String>
+    <sys:String x:Key="app_data_device_select_Android_device_insufficient_space_tip">Insufficient storage in {0}! Please free up enough storage ({1}) and try again.</sys:String>
+    <sys:String x:Key="app_data_device_select_both_Android_device_log_the_same_account_tip">When the transfer is complete, you must log into the same WhatsApp account on the destination device, otherwise it won’t detect the transferred data.</sys:String>
+    <!--#endregion-->
+
+    <sys:String x:Key="transfer_appdata_to_android_view_tip_stop_previous">The program is running. Are you sure you want to stop?</sys:String>
+
+    <!--#region New USB调试图片资源-->
+    <Image x:Key="android_device_usb_debug_view_tip_image1" Source="pack://application:,,,/iCareFone;component/Themes/Images/AndroidGuide/USBDebugGuide/Default/en/one.jpg" />
+    <Image x:Key="android_device_usb_debug_view_tip_image2" Source="pack://application:,,,/iCareFone;component/Themes/Images/AndroidGuide/USBDebugGuide/Default/en/2.jpg" />
+    <Image x:Key="android_device_usb_debug_view_tip_image3" Source="pack://application:,,,/iCareFone;component/Themes/Images/AndroidGuide/USBDebugGuide/Default/en/3.jpg" />
+    <Image x:Key="android_device_usb_debug_view_tip_image4" Source="pack://application:,,,/iCareFone;component/Themes/Images/AndroidGuide/USBDebugGuide/Default/en/4.jpg" />
+    <Image x:Key="android_device_usb_debug_view_tip_image5" Source="pack://application:,,,/iCareFone;component/Themes/Images/AndroidGuide/USBDebugGuide/Default/en/5.jpg" />
+    <Image x:Key="android_device_usb_debug_view_tip_image6" Source="pack://application:,,,/iCareFone;component/Themes/Images/AndroidGuide/USBDebugGuide/Default/en/6.jpg" />
+    <Image x:Key="android_device_usb_debug_view_tip_image7" Source="pack://application:,,,/iCareFone;component/Themes/Images/AndroidGuide/USBDebugGuide/Default/en/7.jpg" />
+    <!--#endregion-->
+
+    <sys:String x:Key="android_device_usb_debug_view_tip_bottom_hyperlink_right">General Settings>></sys:String>
+
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_restoring">Transferring WhatsApp data, please do not disconnect either device!</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_progress">Transferring files…</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed">WhatsApp Transfer Competed!</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_succeed_header">WhatsApp Transfer Successfully!</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_succeed">Transfer WhatsApp data from [color=#FF0AB3CB][binding=SourceAndroidContext.NameWithType]SourceDevice[/binding][/color] to [color=#FF0AB3CB][binding=TargetAndroidContext.NameWithType]TargetDevice[/binding][/color] successfully. You can see the data in [color=#FF0AB3CB][binding=TargetAndroidContext.NameWithType]TargetDevice[/binding][/color] by following the steps below.</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_source_data_null_header">No WhatsApp Data Found!</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_source_data_null">No WhatsApp data was found in the source device!</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_source_failed_header">WhatsApp Transfer Failed!</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_source_failed">Transfer failed. Please reconnect your device and try again, or contact us.</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_source_failed_linker">contact us.</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_restoring_attention_first">Tips:</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_restoring_attention_second">1. Please keep an eye during the process and respond in the device timely.</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_restoring_attention_third">2. The device will restart in the process of transfer. Please keep the device connected after the restart.</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_restoring_attention_forth">3. In the process of transfer, the program will uninstall WhatsApp from your device and then reinstall it.</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_encounter_problems">If there is a problem, please contact us.</sys:String>
+    <sys:String x:Key="transfer_appdata_android_to_android_view_tip_completed_encounter_problems_linker">contact us.</sys:String>
+
+    <sys:String x:Key="android_device_backup_guider_window_view_tip_already_backup">I've already backed up</sys:String>
+    <sys:String x:Key="android_device_backup_guider_window_view_tip_header">Please follow these steps to continue on {0} device.</sys:String>
+    <sys:String x:Key="transfer_appdata_source_device_disconnect_tip">{0} has disconnected! The data has been backed up and will continue transferring to the target device.</sys:String>
+    <sys:String x:Key="transfer_forapp_android_device_disconnect_tip">{0} has disconnected. Please reconnect and try again.</sys:String>
+
+    <sys:String x:Key="restore_whatsapp_failed_with_target_ios_device_no_login">Restore failed! Please log into WhatsApp on [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] and try again.</sys:String>
+    <sys:String x:Key="transfer_whatsapp_failed_a2i_with_target_device_no_login">Transfer failed! Please log into WhatsApp on [color=#FF0AB3CB][binding=NameWithType]TargetDevice[/binding][/color] and try again.</sys:String>
+    <sys:String x:Key="transfer_whatsapp_failed_i2i_with_target_device_no_login">Transfer failed! Please log into WhatsApp on [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] and try again.</sys:String>
+
+    <sys:String x:Key="android_device_backup_whatsapp_guider_header_tip">To avoid data loss, please follow the steps below to back up WhatsApp data on your Android device before transferring.</sys:String>
+    <!--#endregion-->
+
+    <!--#region V5.8.0版本-->
+    <sys:String x:Key="iTunes_unsupported_version_restart">Restart</sys:String>
+    <!--#endregion-->
+
+    <!--#region V5.9.0版本-->
+
+    <sys:String x:Key="apps_backup_browser_view_tip_logon_clear">Please first login to [binding=AppName]AppName[/binding] account on the {0}, otherwise the [binding=AppName]AppName[/binding] data in the device will be cleared after the restore is completed.</sys:String>
+    <sys:String x:Key="apps_before_transfer_logon_clear">Please first login to [binding=AppName]AppName[/binding] account on the {0}, otherwise the [binding=AppName]AppName[/binding] data in the device will be cleared after the transfer is completed.</sys:String>
+    <sys:String x:Key="apps_transfering_data">Transferring [binding=AppName]AppName[/binding] data,please do not disconnect either device!</sys:String>
+    <sys:String x:Key="transfer_moredata_moretime">The more data in your device, the more time it will take to transfer. Please keep an eye during the process and respond in the device timely.</sys:String>
+    <sys:String x:Key="apps_restore_android_view_tip_restoring">Restoring [binding=AppName]AppName[/binding] data to the device, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="backup_resource_apps_data_colon">Backing up [binding=AppName]AppName[/binding] data in the source device</sys:String>
+    <sys:String x:Key="backup_resource_apps_data">Backing up [binding=AppName]AppName[/binding] data in the source device</sys:String>
+    <sys:String x:Key="backup_android_apps_data">Backing up [binding=AppName]AppName[/binding] data in the Android device</sys:String>
+    <sys:String x:Key="backup_android_apps_data_tip1">The device may restart during the process. Please unlock the device and keep it connected after the restart.</sys:String>
+    <sys:String x:Key="backup_android_apps_data_tip2">During the process, the program may need to uninstall [binding=AppName]AppName[/binding] from your device and then reinstall it. Please rest assured that your data won't get lost.</sys:String>
+    <sys:String x:Key="backup_android_apps_data_tip3">The more data in your device, the more time it will take to backup. Please wait patiently.</sys:String>
+    <sys:String x:Key="create_appsdata_and_restore">Generating restore data and restoring it to the target device</sys:String>
+    <sys:String x:Key="transfer_enclosure_target">Transferring [binding=AppName]AppName[/binding] attachments to the target device</sys:String>
+    <sys:String x:Key="transfer_moreenclosure_moretime">The more attachments in your device, the more time it will take. Please wait patiently.</sys:String>
+    <sys:String x:Key="end_to_setup_apps">Installing [binding=AppName]AppName[/binding]</sys:String>
+    <sys:String x:Key="end_to_setup_apps_tip1">When you reach to this step, it means that the data transfer has completed.</sys:String>
+    <sys:String x:Key="end_to_setup_apps_tip2">If the installation fails, please manually update the [binding=AppName]AppName[/binding] in the device and you'll see the data. Please DON'T uninstall [binding=AppName]AppName[/binding].</sys:String>
+    <sys:String x:Key="get_resource_enclosure">Getting attachments in the source device</sys:String>
+    <sys:String x:Key="create_restore_data">Generating restore data</sys:String>
+    <sys:String x:Key="restore_data_to_target">Restoring [binding=AppName]AppName[/binding] data to the target device</sys:String>
+    <sys:String x:Key="disk_space_not_enough">Insufficient storage! Please free up enough storage and try again.</sys:String>
+    <sys:String x:Key="backup_and_restore_items_view_tip_apps_item">[binding=AppName]AppName[/binding] Backup &amp; Restore</sys:String>
+    <sys:String x:Key="backup_view_tip_apps_item_describe_onlyIOS">Backup [binding=AppName]AppName[/binding] data in iOS device and restore the backup to iOS device.</sys:String>
+    <sys:String x:Key="backup_and_restore_apps_items_view_tip_backup_item">Backup [binding=AppName]AppName[/binding]</sys:String>
+    <sys:String x:Key="backup_and_restore_apps_items_view_tip_backup_item_describe">Backup [binding=AppName]AppName[/binding] data from iOS device to computer.</sys:String>
+    <sys:String x:Key="backup_and_restore_apps_items_view_tip_restore_item">Restore [binding=AppName]AppName[/binding]</sys:String>
+    <sys:String x:Key="restore_apps_items_view_tip_restore_item_describe_onlyIOS">Restore [binding=AppName]AppName[/binding] backup to iOS device.</sys:String>
+    <sys:String x:Key="backup_and_restore_apps_view_not_installed_tip">No [binding=AppName]AppName[/binding] is detected on {0}, please install [binding=AppName]AppName[/binding] first.</sys:String>
+    <sys:String x:Key="backup_apps_view_procedure_header_tip">Backing up your [binding=AppName]AppName[/binding] data, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="backup_apps_view_procedure_norecord_header_tip">No [binding=AppName]AppName[/binding] Data Found!</sys:String>
+    <sys:String x:Key="backup_apps_view_procedure_norecord_tip">The program does not find any [binding=AppName]AppName[/binding] data. Please make sure your device has [binding=AppName]AppName[/binding] chat and try again.</sys:String>
+    <sys:String x:Key="backup_apps_view_to_restore_tip">Restore [binding=AppName]AppName[/binding]>></sys:String>
+    <sys:String x:Key="backup_apps_view_procedure_succeed_header_tip">[binding=AppName]AppName[/binding] Backup Successfully!</sys:String>
+    <sys:String x:Key="backup_apps_view_procedure_succeed_tip">[binding=AppName]AppName[/binding] data in [color=#FF0AB3CB][binding=TargetDeviceName]TargetDevice[/binding][/color] has been backed up successfully.</sys:String>
+    <sys:String x:Key="backup_apps_view_procedure_failed_header_tip">[binding=AppName]AppName[/binding] Backup Failed!</sys:String>
+    <sys:String x:Key="apps_backup_browser_view_tip_logon_same_account">Please first login to the same [binding=AppName]AppName[/binding] account on the {0}, otherwise the [binding=AppName]AppName[/binding] data in the device will be cleared after the restore is completed.</sys:String>
+    <sys:String x:Key="restore_apps_to_android_data_will_be_cover_tip">The [binding=AppName]AppName[/binding] data in {0} will be overwritten. Are you sure you want to continue?</sys:String>
+    <sys:String x:Key="apps_restore_ios_view_tip_restoring">Restoring [binding=AppName]AppName[/binding] data to the device, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="apps_restore_ios_view_tip_completed_succeed_header">[binding=AppName]AppName[/binding] Restore Successfully!</sys:String>
+    <sys:String x:Key="apps_restore_ios_view_tip_completed_succeed">[binding=AppName]AppName[/binding] data has been restored to  [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] successfully.</sys:String>
+    <sys:String x:Key="apps_restore_ios_view_tip_completed_failed_header">[binding=AppName]AppName[/binding] Restore Failed!</sys:String>
+    <sys:String x:Key="social_apps_data_transfer">Social App Transfer</sys:String>
+    <sys:String x:Key="trial_view_tip_apps_transfer">[binding=AppName]AppName[/binding] Transfer</sys:String>
+    <sys:String x:Key="apps_transfer_main_description">Transfer [binding=AppName]AppName[/binding] chats and attachments between devices (iOS / Android)</sys:String>
+    <sys:String x:Key="apps_transfer_main_description_onlyIOS">Transfer [binding=AppName]AppName[/binding] Chats and Attachments Between iOS Devices</sys:String>
+    <sys:String x:Key="apps_transfer_device_selete_title">Transfer [binding=AppName]AppName[/binding] Data Between iOS Devices</sys:String>
+    <sys:String x:Key="apps_before_transfer_logon_same_account">Please first login to the same [binding=AppName]AppName[/binding] account on the {0}, otherwise the [binding=AppName]AppName[/binding] data in the device will be cleared after the transfer is completed.</sys:String>
+    <sys:String x:Key="apps_transfer_remark">Note: After switching the device to login to [binding=AppName]AppName[/binding], the data in the previous device will be automatically deleted by [binding=AppName]AppName[/binding]. Refer to [binding=AppName]AppName[/binding] FAQ >> for details. (Don't worry and do not disconnect the device after switching login. The program will transfer the [binding=AppName]AppName[/binding] data from the source device to the target device completely.)</sys:String>
+    <sys:String x:Key="apps_transfer_resource_nodata">No [binding=AppName]AppName[/binding] data was found in the source device!</sys:String>
+    <sys:String x:Key="apps_transfer_failed">[binding=AppName]AppName[/binding] Transfer Failed!</sys:String>
+    <sys:String x:Key="apps_transfer_failed_restore">Sorry to tell that the [binding=AppName]AppName[/binding] data transfer has failed. But don't worry about your data as the program has saved your [binding=AppName]AppName[/binding] data to computer. You can go to the [binding=AppName]AppName[/binding] backup list and select [binding=AppName]AppName[/binding] backup to restore.</sys:String>
+    <sys:String x:Key="apps_transfer_success">[binding=AppName]AppName[/binding] Transfer Successfully!</sys:String>
+    <sys:String x:Key="apps_transfer_success_describe">[binding=AppName]AppName[/binding] data has been transferred from [color=#FF0AB3CB][binding=SourceDevice.NameWithType]SourceDevice[/binding][/color] to [color=#FF0AB3CB][binding=TargetDevice.NameWithType]TargetDevice[/binding][/color] successfully.</sys:String>
+    <sys:String x:Key="home_view_tip_apps_transfer">Social App Data Transfer Between Devices (iOS/Android)</sys:String>
+
+
+
+    <!--#region V5.9.0版本产品提供的文案中没有的部分，从之前的代码中修改而来-->
+    <sys:String x:Key="backup_and_restore_items_view_tip_apps_item_describe">Backup [binding=AppName]AppName[/binding] data in iOS device and restore the backup to iOS or Android device.</sys:String>
+    <sys:String x:Key="backup_and_restore_apps_items_view_tip_restore_item_describe">Restore [binding=AppName]AppName[/binding] backup to iOS or Android device.</sys:String>
+    <sys:String x:Key="backup_apps_view_procedure_complate_header_tip">[binding=AppName]AppName[/binding] Backup Completed!</sys:String>
+    <sys:String x:Key="apps_restore_ios_view_tip_completed">[binding=AppName]AppName[/binding] Restore Completed!</sys:String>
+    <sys:String x:Key="apps_restore_ios_view_tip_data_transfer">Restoring [binding=AppName]AppName[/binding] data to the device, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="apps_restore_android_view_tip_completed">[binding=AppName]AppName[/binding] Restore Completed!</sys:String>
+    <sys:String x:Key="apps_restore_android_view_tip_completed_succeed_header">[binding=AppName]AppName[/binding] Restore Successfully!</sys:String>
+    <sys:String x:Key="apps_transfer_data_question_cover">The [binding=AppName]AppName[/binding] data in {0} will be overwritten. Are you sure you want to transfer?</sys:String>
+    <sys:String x:Key="apps_restore_android_view_tip_completed_succeed">[binding=AppName]AppName[/binding] data has been restored to [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] successfully.</sys:String>
+    <sys:String x:Key="apps_restore_android_view_tip_completed_failed_header">[binding=AppName]AppName[/binding] Restore Failed!</sys:String>
+    <sys:String x:Key="apps_restore_android_view_tip_data_transfer">Restoring [binding=AppName]AppName[/binding] data to the device, please do not disconnect the device!</sys:String>
+    <sys:String x:Key="apps_restore_android_view_tip_attention_forth">3. In the process of transfer, the program will uninstall [binding=AppName]AppName[/binding] from your device and then reinstall it. Do not worry about that.</sys:String>
+    <sys:String x:Key="restore_apps_to_android_input_password_window_tip">Please enter the password of the [binding=AppName]AppName[/binding] backup.</sys:String>
+    <sys:String x:Key="app_data_device_select_logon_apps_tip">Please make sure you've logged into [binding=AppName]AppName[/binding] on {0}, or the transfer will fail.</sys:String>
+    <sys:String x:Key="apps_transfer_data_title_tip2">2. In the process of transfer, the program will uninstall [binding=AppName]AppName[/binding] from your device and then reinstall it.</sys:String>
+    <sys:String x:Key="restore_apps_failed_with_target_ios_device_no_login">Restore failed! Please log into [binding=AppName]AppName[/binding] on [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] and try again.</sys:String>
+    <sys:String x:Key="transfer_apps_failed_target_device_no_login">Transfer failed! Please log into [binding=AppName]AppName[/binding] on [color=#FF0AB3CB][binding=NameWithType]TargetDevice[/binding][/color] and try again.</sys:String>
+    <sys:String x:Key="transfer_apps_failed_i2i_with_target_device_no_login">Transfer failed! Please log into [binding=AppName]AppName[/binding] on [color=#FF0AB3CB][binding=RestoreTarget]TargetDevice[/binding][/color] and try again.</sys:String>
+    <sys:String x:Key="android_device_backup_apps_guider_header_tip">To avoid data loss, please follow the steps below to back up [binding=AppName]AppName[/binding] data on your Android device before transferring.</sys:String>
+    <sys:String x:Key="app_data_device_select_header_tip">Transfer [binding=AppName]AppName[/binding] Data Between iOS and Android Devices</sys:String>
+    <!--#endregion-->
+
+    <sys:String x:Key="update_checking">Checking for updates…</sys:String>
+    <sys:String x:Key="update_this_version_is_latest">The version you are using is the latest one!</sys:String>
+    <sys:String x:Key="update_check_has_error">Network error, please check the network and try again.</sys:String>
+    <sys:String x:Key="update_new_version_is_available">A new version is available.</sys:String>
+    <sys:String x:Key="update_btn_update_now">Update now</sys:String>
+    <sys:String x:Key="update_btn_remind_later">Remind me later</sys:String>
+    <sys:String x:Key="update_new_version">Version:</sys:String>
+    <sys:String x:Key="update_release_date">Released Date:</sys:String>
+    <sys:String x:Key="update_downloading_tips">Downloading, please wait a moment.</sys:String>
+    <sys:String x:Key="update_download_failed">Download error, please check the network and try again,</sys:String>
+    <sys:String x:Key="update_download_success">Download complete. Immediate installation requires closing the running program. Do you want to continue?</sys:String>
+    <sys:String x:Key="update_download_confirm_stop">Download the latest version, do you want to cancel?</sys:String>
+    <sys:String x:Key="update_install_now">Install now</sys:String>
+    <sys:String x:Key="update_cancel">Cancel</sys:String>
+    <sys:String x:Key="update_whatisnew_text">What's New:</sys:String>
+    <sys:String x:Key="update_btn_retry">Try again</sys:String>
+
+    <sys:String x:Key="trial_view_using_trial_version">You are now using the [b]trial version[/b]!</sys:String>
+    <sys:String x:Key="trial_view_only_use_part">Limited functions can be used in the trial version. Purchase a license and activate the program to use all features without restriction.</sys:String>
+    <sys:String x:Key="trial_view_title_trial">Trial</sys:String>
+    <sys:String x:Key="trial_view_title_manager">Manage</sys:String>
+    <sys:String x:Key="trial_view_title_full">Full</sys:String>
+    <sys:String x:Key="trial_view_feature_restore">Restore Device / Social App from Backup</sys:String>
+    <sys:String x:Key="trial_view_feature_backup">Backup Device / Social App</sys:String>
+    <sys:String x:Key="trial_view_feature_free">Free</sys:String>
+    <sys:String x:Key="trial_view_feature_have_registration">Have a registration code? Register Now>></sys:String>
+    <sys:String x:Key="trial_view_title_restore_transfer">Restore &amp; Transfer</sys:String>
+    <sys:String x:Key="trial_view_using_trial_version_describe">You are now using the [b]trial version[/b]. Please enter the registration code to register and activate more features.</sys:String>
+    <sys:String x:Key="trial_view_using_manage_version">You are now using the [b]Manage version[/b]!</sys:String>
+    <sys:String x:Key="trial_view_use_limited_functions">Sorry that you can use limited functions in current version.  Thanks for choosing iCareFone. We offer you [b]{0}[/b] off specially to upgrade to full version.</sys:String>
+    <sys:String x:Key="trial_already_upgraded">Already upgraded, register now>></sys:String>
+    <sys:String x:Key="trial_upgrade_now">Upgrade Now ({0} OFF)</sys:String>
+    <sys:String x:Key="trial_view_using_transfer_version">You are now using [b]Restore &amp; Transfer version[/b]!</sys:String>
+    <sys:String x:Key="trial_view_using_manage_version_describe">You are now using [b]Manage version[/b]. Thanks for choosing iCareFone. We offer you {0} off specially to upgrade to full version.</sys:String>
+    <sys:String x:Key="trial_view_using_transfer_version_describe">You are now using [b]Restore &amp; Transfer version[/b]. Thanks for choosing iCareFone. We offer you {0} off specially to upgrade to full version.</sys:String>
+    <sys:String x:Key="trial_view_using_full_version">You are now using [b]full version[/b], and can use all features without any restriction.</sys:String>
+
+    <sys:String x:Key="iCloud_check_view_tip_find_my_iPhone_tip">If you still can't continue after try again, please make sure the network is normal, and then turn off "Find My iPhone" again.</sys:String>
+    <sys:String x:Key="update_apps_to_view_data">Please manually update the [binding=AppName]AppName[/binding] in your device, and you will see the data.  Please don't uninstall it</sys:String>
+    <sys:String x:Key="input_password_to_unlock_device">Please enter the passcode to unlock [color=#FF0AB3CB][binding=NameWithType]Device[/binding][/color]</sys:String>
+
+    <!--V6.0.0新增文案-->
+    <sys:String x:Key="import_photos_need_to_install_icareFone">To transfer photos to Camera Roll, you need to install iCareFone app on your device first.</sys:String>
+    <sys:String x:Key="install_not_work_replug_devcie">If click "Installed" does not work after installation, please replug the device.</sys:String>
+    <sys:String x:Key="scan_qr_code">1. Turn on the "Camera" and scan the QR code below.</sys:String>
+    <sys:String x:Key="click_view_in_app_store">2. Click "View in App Store".</sys:String>
+    <sys:String x:Key="download_iCareFone_app">3. Download iCareFone app.</sys:String>
+    <sys:String x:Key="icarefone_app_installed">Installed</sys:String>
+    <sys:String x:Key="fast_import_photos_without_app">Fast Import Photos without App >></sys:String>
+    <sys:String x:Key="fast_import_photos_without_app_richtex">Fast Import Photos</sys:String>
+    <sys:String x:Key="fast_import_photos_without_app_continue">Due to Apple restrictions, photos imported using Fast Import cannot be deleted directly on the device. Do you want to continue?</sys:String>
+    <sys:String x:Key="allow_icarefone_access_your_photos">Please open iCareFone App on your device and allow access to your photos.</sys:String>
+    <sys:String x:Key="import_photos_keep_icarefone_open">Note: To transfer photos to Camera Roll successfully, please keep iCareFone app open during the process.</sys:String>
+    <sys:String x:Key="delete_photos_need_to_install_icareFone">To delete photos from Camera Roll, you need to install iCareFone app on your Device first.</sys:String>
+    <sys:String x:Key="delete_photos_keep_icarefone_open">Note: To delete photos from Camera Roll successfully, please keep iCareFone app open during the process.</sys:String>
+    <sys:String x:Key="delete_photos_tap_on_device">Please tap "Delete" on your iDevice.</sys:String>
+    <sys:String x:Key="delete_photos_waiting">Deleting photos, please wait …</sys:String>
+    <sys:String x:Key="manage_done">Done</sys:String>
+    <sys:String x:Key="succeed_delete_items">{0} item(s) successfully deleted.</sys:String>
+    <sys:String x:Key="failed_delete_items">{0} item(s) failed to delete.</sys:String>
+    <sys:String x:Key="Deleting">Deleting…</sys:String>
+    <sys:String x:Key="Syncing_please_wait">Syncing， please wait…</sys:String>
+    <sys:String x:Key="try_send_whatsapp_message">Try sending a WhatsApp message now.</sys:String>
+    <!--#endregion-->
+
+    <!--容量单位-->
+    <sys:String x:Key="storage_unit_byte">Byte</sys:String>
+    <sys:String x:Key="storage_unit_kb">KB</sys:String>
+    <sys:String x:Key="storage_unit_mb">MB</sys:String>
+    <sys:String x:Key="storage_unit_gb">GB</sys:String>
+    <!--#endregion-->
+
+    <sys:String x:Key="open_iTunes_media_tips">When using the iTunes import and export service, you need to launch iTunes at least once to ensure that the program can import and export files successfully.</sys:String>
+
+    <!--#region V7.6.0 版本新增文案-->
+    <sys:String x:Key="device_not_connect_tip_guide">Connect the Apple device to the computer with a USB cable. Enter the passcode to unlock your device, then trust this computer when you get the pop-up.</sys:String>
+
+    <sys:String x:Key="home_view_tip_device_infos">Device Information</sys:String>
+    <sys:String x:Key="home_view_tip_warranty_period">Warranty period</sys:String>
+    <sys:String x:Key="home_view_tip_query">Check</sys:String>
+    <sys:String x:Key="home_view_tip_remaining_space">{0} remaining</sys:String>
+    <sys:String x:Key="home_view_tip_device_restart">Restart the device</sys:String>
+    <sys:String x:Key="home_view_tip_device_switch_off">Switch off the device</sys:String>
+    <sys:String x:Key="home_view_tip_device_refresh">Refresh device</sys:String>
+
+    <sys:String x:Key="home_view_tip_dialog_ask_close">Shutdown will interrupt the task in progress. Do you want to continue?</sys:String>
+    <sys:String x:Key="home_view_tip_dialog_ask_device_restart">Are you sure you want to restart the device?</sys:String>
+    <sys:String x:Key="home_view_tip_dialog_ask_device_switch_off">Are you sure you want to turn off the device?</sys:String>
+    <sys:String x:Key="home_view_tip_dialog_ask_cancel_task">The current task will be cancelled. Are you sure?</sys:String>
+    <sys:String x:Key="home_view_tip_dialog_ask_open_itunes">An anomaly has been detected in iTunes, which prevents the program from completing related operations for you. Please close and restart iTunes and try again.</sys:String>
+
+    <sys:String x:Key="transfer_to_itunes_view_tip_scanning_media_files">Scanning multimedia files on the device...</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_dont_disconnect_device">Don't unplug the device and keep the connection between your device and computer during the scanning process!</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_wait_export_files">File(s) to be exported: {0}</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_auto_transfer">The transfer will start automatically after scanning</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_batch_transfer">Bulk transfer</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_found_wait_transfer_file">The scan is completed. {0} files to be transferred were found!</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_device_file">Device file(s): {0}</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_repetition_file">Duplicate file(s): {0}</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_wait_transfer_file">File(s) to be transferred: {0}</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_selected_files">Selected: {0} items, a total of {1} files ({2} MB)</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_transfering_meidia_file">{0}multimedia files are being transferred to iTunes</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_estimated_time">Estimating the remaining time...</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_estimated_time2">{0}/{1} - About {2} hour (s), {3} minute(s) and {4} second (s) remaining. Please do not disconnect the device!</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_uncomplete">Not completed</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_canceled">Canceled</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_completed">Completed</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_cancel_transfer">Cancel transfer</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_transfer_complete">The process is done!</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_transfer_successed">Transfer completed: {0}</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_transfer_failed">Transfer failed: {0}</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_open_folder">Open folder</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_ok">OK</sys:String>
+    <sys:String x:Key="transfer_to_itunes_view_tip_no_found_file_scaned">The scanning process is completed. No files to be transferred were found!</sys:String>
+
+    <sys:String x:Key="transfer_to_pc_view_tip_select_media_files">Please select the multimedia file(s) you want to transfer to the device</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_transfering">{0} multimedia file(s) is transferring to the device...</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_exist_files">Files in the device: {0}</sys:String>
+
+    <sys:String x:Key="transfer_to_pc_view_tip_calculating_v760">Calculating…</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_no_found_file">Can't find the {0} path. Would you like to skip it or export the thumbnail?</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_remember_selected">Remember my choice</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_export_successed">{0} photos are exported successfully</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_skiped">{0} photo(s) was skipped</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_export_failed">{0} photos failed to export</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_btn_skip">Skip</sys:String>
+    <sys:String x:Key="transfer_to_pc_view_tip_btn_export">Export thumbnail</sys:String>
+
+    <sys:String x:Key="manager_photo_export_config_view_tip_heic_header_760">HEIC photo export</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_heic_format_jpg_760">Export as JPG format (Common format but takes more time to export)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_heic_format_heic_760">Export as HEIC format (Special format and requires Apple device to view)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_hevc_header_760">HEIC video export</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_hevc_format_h264_760">Export as MP4 format with H.264 encoding (Support most media players but slow in export)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_hevc_format_h265_760">Directly export HEVC encoded MOV format (Special format but may not play on some players)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_live_header_760">Live photo export</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_live_format_video_760">Export as Static photo(s) + Dynamic video(s)</sys:String>
+    <sys:String x:Key="manager_photo_export_config_view_tip_live_format_photo_760">Export as Static photo(s) only</sys:String>
+    <!--#endregion-->
+</ResourceDictionary>
